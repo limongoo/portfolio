@@ -18,3 +18,4 @@ Live Repository:
 - index.html, style.css, app.js
 - .gitignore created
 - .eslintrc create
+- add reset.css
