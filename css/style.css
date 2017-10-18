@@ -10,4 +10,29 @@ body {
 
 header {
     margin: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navigation {
+    align-self: flex-end;
+}
+
+#navigation ul{
+    display: flex;
+}
+
+#navigation ul li {
+    padding: 0 0px 0 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease all;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
 }
