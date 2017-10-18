@@ -1,2 +1,13 @@
 /* css */
 @import 'reset.css';
+
+body {
+    background-color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+header {
+    margin: 5%;
+}
