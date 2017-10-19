@@ -67,6 +67,7 @@ a:hover {
     max-width: 500px;
     overflow: hidden;
     transition: 0.3s ease-in-out;
+    padding-bottom: 10px;
 }
 
 #projectItem:hover > #projectBox {
@@ -85,24 +86,31 @@ a:hover {
 
 
 #projectName {
-    padding: 10px 0 0;
+    /* padding: 10px 0 0; */
     text-transform: lowercase;
+}
+
+#projectName:hover {
+    padding-bottom: 5px;
 }
 
 
 /*  -------- Media Queries ------- */
 
 /* Mobile */
-@media only screen and (max-width: 320px) {
-    
+@media only screen and (max-width: 653px) and (min-width: 320px) {
+#projectContainer #projectItem {
+    margin: 10px 0 50px;
+}
+
 }
 
 /* Tablet */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 61280px) and (min-width: 653px) {
     
 }
 
 /* Desktop */
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 9000px) and (min-width: 1280px) {
     
 }
