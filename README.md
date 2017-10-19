@@ -32,7 +32,8 @@ Live Repository:
 - Adjusted constructor to contain image and text into one div
 
 #### 10/19
-- Project constructor styling
+- Constructor styling
+- Links added to project item - image and title through constructor
 - Added social media links
 - Media query styling
 - Hide menu and social media on mobile and tablet view
