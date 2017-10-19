@@ -17,7 +17,7 @@ function makeItems() {
     for (index = 0; index < projectData.length; index++) {
         var port = projectData[index];
 
-
+    }
 }
 
 
