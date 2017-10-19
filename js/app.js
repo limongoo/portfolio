@@ -29,7 +29,7 @@ function makeItems() {
 
     createDiv.appendChild(createImg);
     get.appendChild(createDiv);
-
+    get.appendChild(createTitle);
     }
 }
 

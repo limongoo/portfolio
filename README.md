@@ -27,3 +27,5 @@ Live Repository:
 - Basic styling and google font added
 - Basic object constructor to add project items
 - Contructor working for adding image
+- Constructor wokring for adding title to project images
+- Styling for image projects applied
