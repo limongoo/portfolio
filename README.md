@@ -26,3 +26,4 @@ Live Repository:
 - Added basic logo and menu navigation
 - Basic styling and google font added
 - Basic object constructor to add project items
+- Contructor working for adding image

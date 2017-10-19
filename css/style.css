@@ -40,3 +40,41 @@ a:hover {
 #container {
     margin: 5%;
 }
+
+/* ------  Project Item Style ----------- */
+
+#projectContainer {
+    margin: 5%;
+}
+
+#imgBox {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+#imgBox img {
+    position: relative;
+    max-width: 150%;
+}
+
+
+
+
+/*  -------- Media Queries ------- */
+
+/* Mobile */
+@media only screen and (max-width: 320px) {
+    
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+    
+}
+
+/* Desktop */
+@media only screen and (max-width: 1280px) {
+    
+}
