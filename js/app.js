@@ -24,6 +24,9 @@ function makeItems() {
     for (index = 0; index < projectData.length; index++) {
         var pro = projectData[index];
     
+    var createItem = document.createElement("div");
+    createItem.setAttribute("id", "projectItem");
+
     var createDiv = document.createElement("div");
     createDiv.setAttribute("id", "projectBox");
 
@@ -35,8 +38,9 @@ function makeItems() {
     createTitle.innerText = pro.title;
 
     createDiv.appendChild(createImg);
-    get.appendChild(createDiv);
-    get.appendChild(createTitle);
+    createItem.appendChild(createDiv);
+    createItem.appendChild(createTitle);
+    get.appendChild(createItem);
     }
 }
 
