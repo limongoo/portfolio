@@ -12,13 +12,13 @@ var project = function (image, title, link) {
 // array
 var projectData = [];
 projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
-projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
-projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
-projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
-projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
-projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
-projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
-projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
+projectData.push(new project("3dhouse.jpg", "Project 2", "#"));
+projectData.push(new project("3dhouse.jpg", "Project 3", "#"));
+projectData.push(new project("3dhouse.jpg", "Project 4", "#"));
+projectData.push(new project("3dhouse.jpg", "Project 5", "#"));
+projectData.push(new project("3dhouse.jpg", "Project 6", "#"));
+projectData.push(new project("3dhouse.jpg", "Project 7", "#"));
+projectData.push(new project("3dhouse.jpg", "Project 8", "#"));
 
 // make project items
 function makeItems() {
@@ -33,21 +33,20 @@ function makeItems() {
     var createDiv = document.createElement("div");
     createDiv.setAttribute("id", "projectBox");    
 
+    var createImgLink = document.createElement("a");
+    createImgLink.href = pro.link;
+
     var createImg = document.createElement("img");
     createImg.setAttribute("id", "imgShow");
     createImg.src = "img/" + pro.image;
 
-    // var createTitle = document.createElement('h2');
-    // createTitle.setAttribute("id", "projectName");
-    // createTitle.innerText = pro.title;
-
     var createLink = document.createElement("a");
     createLink.href = pro.link;
-    // createLink = document.createElement('h2');
     createLink.setAttribute("id", "projectName");
     createLink.innerText = pro.title;
 
-    createDiv.appendChild(createImg);
+    createImgLink.appendChild(createImg);
+    createDiv.appendChild(createImgLink);
     createItem.appendChild(createDiv);
     createItem.appendChild(createLink);
     get.appendChild(createItem);

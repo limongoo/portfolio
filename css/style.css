@@ -16,8 +16,17 @@ header {
     justify-content: space-between;
 }
 
+#logo {
+    position: fixed;
+    z-index: 100000;
+}
+
 #navigation {
-    align-self: flex-end;
+    /* align-self: flex-end; */
+    position: fixed;
+    right: 0;
+    padding-right: 20%;
+    z-index: 100000;
 }
 
 #navigation ul{
@@ -45,6 +54,33 @@ a:hover {
 #container {
     margin: 5%;
 }
+
+/* ------- Social ------- */
+#social {
+    /* display: flex; */
+    opacity: 1;
+    transition: 0.3s ease all;
+    right: 0;
+    position: fixed;
+    padding-right: 1%;
+    margin-top: -8px;
+    z-index: 100000;
+  }
+  
+  #social img {
+      transform: scale(.8);
+  }
+  
+  .soc {
+    padding: 10px 20px 0 0;
+    transition: 0.3s ease all;
+    opacity: 0.8;
+  }
+  
+  a.soc:hover {
+    opacity: 0.4;
+    border-bottom: 0px;
+  }
 
 /* ------  Project Item Style ----------- */
 
@@ -74,10 +110,21 @@ a:hover {
 
 #projectBox:hover{
     transform: scale(.95);
-    /* background: rgba(0,229, 255, 0.8); */
+    background: rgba(0,229, 255, 0.8);
     padding-bottom: 0px;
     margin-bottom: 10px;
 }
+
+#projectBox a:hover {
+    border-bottom: 0px;
+}
+
+/* #overlay    {  
+    background:rgba(0,0,0,.75);
+    text-align:center;
+    padding:45px 0 66px 0;
+    opacity:0;
+    -webkit-transition: opacity .25s ease;} */
 
 #imgShow {
     position: relative;
@@ -87,8 +134,9 @@ a:hover {
 
 #imgShow:hover {
     transform: scale(1.1);
+    border-bottom: 0px;
 }
-
+ 
 
 
 #projectName {
@@ -109,6 +157,17 @@ a:hover {
     margin: 10px 0 50px;
 }
 
+#container {
+    margin: 10% 5%;
+}
+
+#navigation {
+    display: none;
+}
+
+#social {
+    display: none;
+}
 }
 
 /* Tablet */
