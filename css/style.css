@@ -58,7 +58,7 @@ a:hover {
 
 #projectContainer #projectItem {
     flex: 1 0 300px;
-    margin-left: 10px;
+    margin-left: 15px;
 	margin-bottom: 90px;
 }
 
@@ -112,5 +112,7 @@ a:hover {
 
 /* Desktop */
 @media only screen and (max-width: 9000px) and (min-width: 1280px) {
-    
+    #projectContainer #projectItem {
+        margin: 0 0 90px 20px;
+    }
 }
