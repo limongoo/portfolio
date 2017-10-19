@@ -30,3 +30,10 @@ Live Repository:
 - Constructor wokring for adding title to project images
 - Styling for image projects applied
 - Adjusted constructor to contain image and text into one div
+
+#### 10/19
+- Project constructor styling
+- Added social media links
+- Media query styling
+- Hide menu and social media on mobile and tablet view
+- Show condensed menu on mobile and tablet view

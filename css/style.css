@@ -37,6 +37,13 @@ header {
     padding: 0 0px 0 30px;
 }
 
+#ham {
+    position: fixed;
+    right: 0;
+    margin-right: 5%;
+    z-index: 100000;
+}
+
 h2 {
     font-size: 16px;
 }
@@ -168,6 +175,10 @@ a:hover {
 #social {
     display: none;
 }
+
+#ham {
+    display: block;
+}
 }
 
 /* Tablet */
@@ -179,12 +190,18 @@ a:hover {
 #social {
     display: none;
 }
+#ham {
+    display: block;
+}
 
 }
 
 /* Desktop */
 @media only screen and (max-width: 9000px) and (min-width: 1280px) {
-    #projectContainer #projectItem {
-        margin: 0 0 90px 20px;
-    }
+#projectContainer #projectItem {
+    margin: 0 0 90px 20px;
+}
+#ham {
+    display: none;
+}
 }
