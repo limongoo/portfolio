@@ -30,9 +30,9 @@ header {
 a {
     color: white;
     text-decoration: none;
-    transition: 0.3s ease all;
 }
 
 a:hover {
     border-bottom: 2px solid white;
+    padding-bottom: 5px;
 }
