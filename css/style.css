@@ -56,11 +56,13 @@ a:hover {
 	margin-top: -10px; */
 }
 
-#projectContainer #projectItem {
+#projectItem {
     flex: 1 0 300px;
     margin-left: 15px;
 	margin-bottom: 90px;
 }
+
+
 
 #projectBox {
     max-height: 500px;
@@ -70,8 +72,9 @@ a:hover {
     padding-bottom: 10px;
 }
 
-#projectItem:hover > #projectBox {
+#projectItem:hover > #projectBox{
     transform: scale(.95);
+    /* background: rgba(0,229, 255, 0.8); */
 }
 
 #imgShow {
@@ -80,9 +83,10 @@ a:hover {
     transition: 0.3s ease-in-out;
 }
 
-#projectItem:hover > #imgShow {
-    transform: scale(1.5);
-}
+/* #projectBox:hover > #imgShow {
+    transform: scale(1.1);
+} */
+
 
 
 #projectName {
