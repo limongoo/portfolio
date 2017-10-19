@@ -25,7 +25,7 @@ function makeItems() {
         var pro = projectData[index];
     
     var createDiv = document.createElement("div");
-    createDiv.setAttribute("id", "imgBox");
+    createDiv.setAttribute("id", "projectBox");
 
     var createImg = document.createElement("img");
     createImg.setAttribute("id", "imgShow");

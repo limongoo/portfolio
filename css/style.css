@@ -45,16 +45,23 @@ a:hover {
 
 #projectContainer {
     margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#imgBox {
+#projectContainer #projectBox {
+    flex: 1 0 300px;
+    margin-top: 80px;
+}
+
+#projectBox {
     height: 300px;
     width: 300px;
     overflow: hidden;
     transition: 0.3s ease-in-out;
 }
 
-#imgBox img {
+#projectBox img {
     position: relative;
     max-width: 150%;
 }
