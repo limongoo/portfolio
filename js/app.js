@@ -10,6 +10,13 @@ var project = function (image, title, link) {
 // array
 var projectData = [];
 projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
+projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
+projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
+projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
+projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
+projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
+projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
+projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
 
 // make project items
 function makeItems() {
