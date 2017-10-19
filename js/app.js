@@ -1,4 +1,5 @@
-// 'use strict';
+'use strict';
+
 console.log('start');
 
 // constructor
@@ -21,6 +22,7 @@ projectData.push(new project("3dhouse.jpg", "Project 1", "#"));
 
 // make project items
 function makeItems() {
+    var index;
     var get = document.getElementById("projectContainer");
     for (index = 0; index < projectData.length; index++) {
         var pro = projectData[index];
