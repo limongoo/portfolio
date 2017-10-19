@@ -29,3 +29,4 @@ Live Repository:
 - Contructor working for adding image
 - Constructor wokring for adding title to project images
 - Styling for image projects applied
+- Adjusted constructor to contain image and text into one div

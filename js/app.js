@@ -35,6 +35,7 @@ function makeItems() {
     createImg.src = "img/" + pro.image;
 
     var createTitle = document.createElement('h2');
+    createTitle.setAttribute("id", "projectName");
     createTitle.innerText = pro.title;
 
     createDiv.appendChild(createImg);

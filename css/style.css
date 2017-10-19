@@ -27,6 +27,10 @@ header {
     padding: 0 0px 0 30px;
 }
 
+h2 {
+    font-size: 16px;
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -44,29 +48,45 @@ a:hover {
 /* ------  Project Item Style ----------- */
 
 #projectContainer {
-    margin: 5%;
+    margin: 4%;
     display: flex;
     flex-wrap: wrap;
+    /* margin-left: -10px;
+	margin-top: -10px; */
 }
 
-#projectContainer #projectBox {
+#projectContainer #projectItem {
     flex: 1 0 300px;
-    margin-top: 80px;
+    margin-left: 10px;
+	margin-bottom: 90px;
 }
 
 #projectBox {
-    height: 300px;
-    width: 300px;
+    max-height: 500px;
+    max-width: 500px;
     overflow: hidden;
     transition: 0.3s ease-in-out;
 }
 
-#projectBox img {
+#projectItem:hover > #projectBox {
+    transform: scale(.95);
+}
+
+#imgShow {
     position: relative;
     max-width: 150%;
+    transition: 0.3s ease-in-out;
+}
+
+#projectItem:hover > #imgShow {
+    transform: scale(1.5);
 }
 
 
+#projectName {
+    padding: 10px 0 0;
+    text-transform: lowercase;
+}
 
 
 /*  -------- Media Queries ------- */
