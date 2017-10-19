@@ -68,13 +68,15 @@ a:hover {
     max-height: 500px;
     max-width: 500px;
     overflow: hidden;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease all;
     padding-bottom: 10px;
 }
 
-#projectItem:hover > #projectBox{
+#projectBox:hover{
     transform: scale(.95);
     /* background: rgba(0,229, 255, 0.8); */
+    padding-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 #imgShow {
@@ -83,9 +85,9 @@ a:hover {
     transition: 0.3s ease-in-out;
 }
 
-/* #projectBox:hover > #imgShow {
+#imgShow:hover {
     transform: scale(1.1);
-} */
+}
 
 
 
