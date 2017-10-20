@@ -39,3 +39,6 @@ Live Repository:
 - Hide menu and social media on mobile and tablet view
 - Show condensed menu on mobile and tablet view
 - Converted css into smacss
+
+#### 10/20
+- Put project data into its own js file. 
