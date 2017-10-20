@@ -53,5 +53,13 @@ function makeItems() {
     }
 }
 
+// Show menu on mobile and tablet
+$(document).ready(function() {
+    $("showMenu").click(function() {
+        $("#navigation").addClass('display');
+    });
+});
+
+
 window.addEventListener("load", makeItems);
 console.log('end');

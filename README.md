@@ -38,3 +38,4 @@ Live Repository:
 - Media query styling
 - Hide menu and social media on mobile and tablet view
 - Show condensed menu on mobile and tablet view
+- Converted css into smacss

@@ -1,21 +1,4 @@
-/* css */
-@import 'reset.css';
-
-body {
-    background-color: black;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-}
-
-header {
-    margin: 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
+/* ------- Navigation ------- */
 #logo {
     position: fixed;
     z-index: 100000;
@@ -44,23 +27,6 @@ header {
     z-index: 100000;
 }
 
-h2 {
-    font-size: 16px;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    border-bottom: 2px solid white;
-    padding-bottom: 5px;
-}
-
-#container {
-    margin: 5%;
-}
 
 /* ------- Social ------- */
 #social {
@@ -89,8 +55,8 @@ a:hover {
     border-bottom: 0px;
   }
 
-/* ------  Project Item Style ----------- */
 
+/* ------  Project Item Style ----------- */
 #projectContainer {
     margin: 4%;
     display: flex;
@@ -104,8 +70,6 @@ a:hover {
     margin-left: 15px;
 	margin-bottom: 90px;
 }
-
-
 
 #projectBox {
     max-height: 500px;
@@ -140,12 +104,10 @@ a:hover {
 }
 
 #imgShow:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     border-bottom: 0px;
 }
  
-
-
 #projectName {
     /* padding: 10px 0 0; */
     text-transform: lowercase;
@@ -153,55 +115,4 @@ a:hover {
 
 #projectName:hover {
     padding-bottom: 5px;
-}
-
-
-/*  -------- Media Queries ------- */
-
-/* Mobile */
-@media only screen and (max-width: 653px) and (min-width: 320px) {
-#projectContainer #projectItem {
-    margin: 10px 0 50px;
-}
-
-#container {
-    margin: 10% 5%;
-}
-
-#navigation {
-    display: none;
-}
-
-#social {
-    display: none;
-}
-
-#ham {
-    display: block;
-}
-}
-
-/* Tablet */
-@media only screen and (max-width: 1280px) and (min-width: 653px) {
-#navigation {
-    display: none;
-}
-
-#social {
-    display: none;
-}
-#ham {
-    display: block;
-}
-
-}
-
-/* Desktop */
-@media only screen and (max-width: 9000px) and (min-width: 1280px) {
-#projectContainer #projectItem {
-    margin: 0 0 90px 20px;
-}
-#ham {
-    display: none;
-}
 }
