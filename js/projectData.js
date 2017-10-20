@@ -1,6 +1,6 @@
 'use strict';
 
-var projectData = [
+var pData = [
     {
     image:  '3dhouse.jpg',
     title:  'Project 1',

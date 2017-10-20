@@ -54,12 +54,28 @@ function makeItems() {
 }
 
 // Show menu on mobile and tablet
-$(document).ready(function() {
-    $("showMenu").click(function() {
-        $("#navigation").show();
-    });
-});
+// $(document).ready(function() {
+//     $("showMenu").click(function() {
+//         $("#navigation").show();
+//     });
+// });
 
+
+// var projectData = [];
+
+// function project (projectDataObj) {
+//     this.image = projectDataObj.image;
+//     this.title = projectDataObj.title;
+//     this.link = projectDataObj.link;
+// };
+
+// pData.forEach(function(proObject) {
+//     projectData.push(new project(proObject));
+// });
+
+// pData.forEach(function(pro) {
+//     $('#projectContainer').append(pro.toHtml());
+// });
 
 window.addEventListener("load", makeItems);
 console.log('end');
