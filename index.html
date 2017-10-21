@@ -3,7 +3,8 @@
     <head>
         <title>Ivan Limongan - 301 Portfolio Website</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/base.css">
+        <script src="js/jquery-3.2.1.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700" rel="stylesheet">
     </head>
     <body>
@@ -15,12 +16,33 @@
                     <li><a href="#" target="_self">bio</a></li>
                 </ul>
             </nav>
+            <div id="ham"><a id="showMenu" href="#">menu</a></div>
+            <div id="social">
+                <a class="soc" href="https://github.com/limongoo" target="_blank"><img src="img/github.png"></a>
+                <a class="soc" href="https://www.instagram.com/ivan.designboard/" target="_blank"><img src="img/instagram.png" ></a>
+                <a class="soc" href="https://www.linkedin.com/in/ivan-limongan-13408a72" target="_blank"><img src="img/linkedin.png" ></a>
+                <a class="soc" href="https://www.pinterest.com/ivanlimongan/" target="_blank"><img src="img/pinterest.png" ></a>
+              </div>
         </header>
 
         <div id="container">
-            <h1>01 — current projects</h1>
+            <h1>01 — current projects test</h1>
         </div>
         <div id="projectContainer"></div>
+
+        <!-- JQuery project template -->
+        <!-- <div id="projectContainer">
+            <div id="projectItem">
+                <div id="projectBox">
+                    <a href="#">
+                        <img id="imgShow" src="">
+                    </a>
+                </div>
+            </div>
+        </div> -->
+
+
+        <script src="js/projectData.js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>

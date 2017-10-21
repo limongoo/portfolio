@@ -29,3 +29,17 @@ Live Repository:
 - Contructor working for adding image
 - Constructor wokring for adding title to project images
 - Styling for image projects applied
+- Adjusted constructor to contain image and text into one div
+
+#### 10/19
+- Constructor styling
+- Links added to project item - image and title through constructor
+- Added social media links
+- Media query styling
+- Hide menu and social media on mobile and tablet view
+- Show condensed menu on mobile and tablet view
+- Converted css into smacss
+
+#### 10/20
+- Put project data into its own js file. 
+- In process of converting javascript constructor into jquery
