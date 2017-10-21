@@ -42,3 +42,4 @@ Live Repository:
 
 #### 10/20
 - Put project data into its own js file. 
+- In process of converting javascript constructor into jquery
