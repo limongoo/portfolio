@@ -60,6 +60,7 @@ console.log('start');
 //     });
 // });
 
+
 // JQuery Constructor
 var projectArray = [];
 
