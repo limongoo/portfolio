@@ -60,22 +60,27 @@ function makeItems() {
 //     });
 // });
 
+// JQuery Constructor
+var projectData = [];
 
-// var projectData = [];
+function project (projectData) {
+    this.image = projectData.image;
+    this.title = projectData.title;
+    this.link = projectData.link;
+};
 
-// function project (projectDataObj) {
-//     this.image = projectDataObj.image;
-//     this.title = projectDataObj.title;
-//     this.link = projectDataObj.link;
-// };
+project.prototype.toHtml = function() {
+    var $projecTemplate = $('div.hide').clone().removeClass("hide");
 
-// pData.forEach(function(proObject) {
-//     projectData.push(new project(proObject));
-// });
+};
 
-// pData.forEach(function(pro) {
-//     $('#projectContainer').append(pro.toHtml());
-// });
+data.forEach(function(newPro) {
+    projectData.push(new project(newPro));
+});
+
+data.forEach(function(pro) {
+    $('#projectContainer').append(pro.toHtml());
+});
 
 window.addEventListener("load", makeItems);
 console.log('end');
