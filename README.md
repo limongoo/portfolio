@@ -52,3 +52,4 @@ Live Repository:
 #### 10/22
 - Minor css
 - JQuery menu show and hide works now on mobile view
+- Working on toggleClass for mobile menu 

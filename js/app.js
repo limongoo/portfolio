@@ -87,15 +87,26 @@ projectArray.forEach(function(pro) {
 
 
 // Show menu on mobile and tablet
+// $('#showMenu').click(function() {
+//     if($('#menu').is(':hidden')){
+//         $('#menu').show();
+//         $(this).text('close');
+//     }
+//     else
+//     $('#menu').hide();
+//     if($('#menu').is(':hidden')){
+//         $('#showMenu').text('menu');
+//     }
+// });
+
 $('#showMenu').click(function() {
-    if($('#menu').is(':hidden')){
-        $('#menu').show();
-        $(this).text('close');
+    $('#menu').toggleClass('hidden');
+    if($('#menu').is(':visible')){
+        $('#showMenu').text('close');
     }
-    else
-    $('#menu').hide();
     if($('#menu').is(':hidden')){
         $('#showMenu').text('menu');
+        // $('#menu').show();
     }
 });
 
