@@ -27,9 +27,7 @@
     z-index: 100000;
 }
 
-#ham:hover + #navigation ul {
-    display: block;
-}
+
 
 
 /* ------- Social ------- */
@@ -142,6 +140,9 @@
         display: block;
     }
 
+    #ham:hover #navigation ul {
+        display: block;
+    }
     
 }
 
