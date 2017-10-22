@@ -61,7 +61,7 @@ function makeItems() {
 // });
 
 // JQuery Constructor
-var projectData = [];
+var projectArray = [];
 
 function project (projectData) {
     this.image = projectData.image;
@@ -73,15 +73,17 @@ project.prototype.toHtml = function() {
     var $projecTemplate = $('div.hide').clone().removeClass("hide");
 
     $projecTemplate.find('#imgShow').attr('src', this.image);
+
+    return $projecTemplate;
 };
 
 data.forEach(function(newPro) {
-    projectData.push(new project(newPro));
+    projectArray.push(new project(newPro));
 });
 
-projectData.forEach(function(pro) {
+projectArray.forEach(function(pro) {
     $('#projectContainer').append(pro.toHtml());
 });
 
-window.addEventListener("load", makeItems);
+// window.addEventListener("load", makeItems);
 console.log('end');
