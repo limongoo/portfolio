@@ -47,3 +47,4 @@ Live Repository:
 #### 10/21
 - Ran into lots of issues while converting constructor to JQuery, but working now
 - Used clone method to add project items
+- Added .eslintrc rules
