@@ -68,10 +68,10 @@ function project (projectData) {
     this.image = projectData.image;
     this.title = projectData.title;
     this.link = projectData.link;
-};
+}
 
 project.prototype.toHtml = function() {
-    var $projecTemplate = $('div.hide').clone().removeClass("hide");
+    var $projecTemplate = $('div.hide').clone().removeClass('hide');
 
     $projecTemplate.find('#imgShow').attr('src', this.image);
     $projecTemplate.find('#projectTitle').text(this.title);
