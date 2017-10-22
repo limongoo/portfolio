@@ -72,13 +72,14 @@ function project (projectData) {
 project.prototype.toHtml = function() {
     var $projecTemplate = $('div.hide').clone().removeClass("hide");
 
+    $projecTemplate.find('#imgShow').attr('src', this.image);
 };
 
 data.forEach(function(newPro) {
     projectData.push(new project(newPro));
 });
 
-data.forEach(function(pro) {
+projectData.forEach(function(pro) {
     $('#projectContainer').append(pro.toHtml());
 });
 
