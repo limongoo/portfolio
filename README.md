@@ -48,3 +48,7 @@ Live Repository:
 - Ran into lots of issues while converting constructor to JQuery, but working now
 - Used clone method to add project items
 - Added .eslintrc rules
+
+#### 10/22
+- Minor css
+- JQuery menu show and hide works now on mobile view
