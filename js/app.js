@@ -53,12 +53,7 @@ console.log('start');
 //     }
 // }
 
-// Show menu on mobile and tablet
-// $(document).ready(function() {
-//     $("showMenu").click(function() {
-//         $("#navigation").show();
-//     });
-// });
+
 
 
 // JQuery Constructor
@@ -89,4 +84,19 @@ projectArray.forEach(function(pro) {
 });
 
 // window.addEventListener("load", makeItems);
+
+
+// Show menu on mobile and tablet
+$('#showMenu').click(function() {
+    if($('#menu').is(':hidden')){
+        $('#menu').show();
+        $(this).text('close');
+    }
+    else
+    $('#menu').hide();
+    if($('#menu').is(':hidden')){
+        $('#showMenu').text('menu');
+    }
+});
+
 console.log('end');

@@ -12,11 +12,11 @@
     z-index: 100000;
 }
 
-#navigation ul{
+#menu{
     display: flex;
 }
 
-#navigation ul li {
+#menu li {
     padding: 0 0px 0 30px;
 }
 
@@ -128,7 +128,7 @@
         margin: 10px 0 50px;
     }
 
-    #navigation ul{
+    #menu{
         display: none;
     }
 
@@ -139,16 +139,12 @@
     #ham {
         display: block;
     }
-
-    #ham:hover #navigation ul {
-        display: block;
-    }
     
 }
 
 /* Tablet */
 @media only screen and (max-width: 1280px) and (min-width: 653px) {
-    #navigation ul{
+    #menu{
         display: none;
     }
 
