@@ -2,9 +2,9 @@
 
 var data = [
     {
-    image:  'img/3dhouse.jpg',
-    title:  'Project 1',
-    link:   '#'
+    image:    'img/3dhouse.jpg',
+    title:    'Project 1',
+    link:     '#',
     },
     {
     image:  'img/3dhouse.jpg',
