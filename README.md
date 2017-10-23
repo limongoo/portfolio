@@ -41,5 +41,15 @@ Live Repository:
 - Converted css into smacss
 
 #### 10/20
-- Put project data into its own js file. 
+- Put project data into its own js file
 - In process of converting javascript constructor into jquery
+
+#### 10/21
+- Ran into lots of issues while converting constructor to JQuery, but working now
+- Used clone method to add project items
+- Added .eslintrc rules
+
+#### 10/22
+- Minor css
+- JQuery menu show and hide works now on mobile view
+- Working on toggleClass for mobile menu 

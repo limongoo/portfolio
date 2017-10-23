@@ -15,47 +15,17 @@ header {
 
 /* Mobile */
 @media only screen and (max-width: 653px) and (min-width: 320px) {
-    #projectContainer #projectItem {
-        margin: 10px 0 50px;
-    }
-
     #container {
         margin: 10% 5%;
-    }
-
-    #navigation {
-        display: none;
-    }
-
-    #social {
-        display: none;
-    }
-
-    #ham {
-        display: block;
     }
 }
 
 /* Tablet */
 @media only screen and (max-width: 1280px) and (min-width: 653px) {
-    #navigation {
-        display: none;
-    }
 
-    #social {
-        display: none;
-    }
-    #ham {
-        display: block;
-    }
 }
 
 /* Desktop */
 @media only screen and (max-width: 9000px) and (min-width: 1280px) {
-    #projectContainer #projectItem {
-        margin: 0 0 90px 20px;
-    }
-    #ham {
-        display: none;
-    }
+
 }
