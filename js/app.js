@@ -87,11 +87,11 @@ projectArray.forEach(function(pro) {
 // Show menu on mobile and tablet
 $('#showMenu').click(function() {
     if($('#menu').is(':hidden')){
-        $('#menu').show();
+        $('#menu').fadeIn(500);
         $(this).text('close');
     }
     else
-    $('#menu').hide();
+    $('#menu').fadeOut(500);
     if($('#menu').is(':hidden')){
         $('#showMenu').text('menu');
     }

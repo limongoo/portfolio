@@ -58,3 +58,4 @@ Live Repository:
 - Tab menu works now for mobile and desktop view. Still working on closing menu on click for mobile/tablet view.
 - Minor css adjustment to make tab menu to work
 - Menu auto closes now when menu is clicked on mobile view
+- Added fadeIn transistions for mobile menu, minor css update
