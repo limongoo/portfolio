@@ -52,7 +52,7 @@ console.log('start');
 //     get.appendChild(createItem);
 //     }
 // }
-
+// window.addEventListener("load", makeItems);
 
 
 
@@ -83,8 +83,6 @@ projectArray.forEach(function(pro) {
     $('#projectContainer').append(pro.toHtml());
 });
 
-// window.addEventListener("load", makeItems);
-
 
 // Show menu on mobile and tablet
 $('#showMenu').click(function() {
@@ -108,5 +106,22 @@ $('#showMenu').click(function() {
 //         $('#showMenu').text('menu');
 //     }
 // });
+
+
+function TabContent() {
+    $('#menu li').on('click', function() {
+        var selectTab = $(this).data('content');
+        $('.content').hide();
+        $('#' + selectTab).fadeIn(500);
+})
+  
+$('#menu .tab:first').click(); // Let's now trigger a click on the first .tab element, to set up the page.
+};
+
+$(document).ready(function() {
+    TabContent();
+})
+
+// TabContent();
 
 console.log('end');
