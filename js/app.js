@@ -113,6 +113,8 @@ function TabContent() {
         var selectTab = $(this).data('content');
         $('.content').hide();
         $('#' + selectTab).fadeIn(500);
+        $('#menu').hide();
+        $('#showMenu').text('menu');
 })
   
 $('#menu .tab:first').click(); // Let's now trigger a click on the first .tab element, to set up the page.
