@@ -53,3 +53,7 @@ Live Repository:
 - Minor css
 - JQuery menu show and hide works now on mobile view
 - Working on toggleClass for mobile menu 
+
+#### 10/23
+- Tab menu works now for mobile and desktop view. Still working on closing menu on click for mobile/tablet view.
+- Minor css adjustment to make tab menu to work
