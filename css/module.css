@@ -164,4 +164,7 @@
     #ham {
         display: none;
     }
+    #menu{
+        display: block !important;
+    }
 }
