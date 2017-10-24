@@ -188,7 +188,7 @@
         display: none;
     }
     #menu{
-        display: flex !important;
+        display: flex;
         padding-left: 400px;
     }
     #menu li {
