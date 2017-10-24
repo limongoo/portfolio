@@ -86,43 +86,32 @@ projectArray.forEach(function(pro) {
 
 // Show menu on mobile and tablet
 $('#showMenu').click(function() {
-    if($('#menu').is(':hidden')){
-        $('#menu').fadeIn(500);
+    var $menu = $('#navigation');
+    if($menu.is(':hidden')){
+        $menu.fadeIn(500);
         $(this).text('close');
     }
-    else
-    $('#menu').fadeOut(500);
-    if($('#menu').is(':hidden')){
-        $('#showMenu').text('menu');
+    else {
+    $menu.fadeOut(500);
+    $('#showMenu').text('menu');
     }
 });
 
-// $('#showMenu').click(function() {
-//     $('#menu').toggleClass('hide');
-//     if($('#menu').is(':visible')){
-//         $('#showMenu').text('close');
-//     }
-//     if($('#menu').is(':hidden')){
-//         $('#showMenu').text('menu');
-//     }
-// });
-
-
+// Tab menu function
 function TabContent() {
     $('#menu li').on('click', function() {
         var selectTab = $(this).data('content');
         $('.content').hide();
         $('#' + selectTab).fadeIn(500);
-        $('#menu').fadeOut(500);
+        $('#navigation').fadeOut(500);
         $('#showMenu').text('menu');
-})
-  
-$('#menu .tab:first').click(); // Let's now trigger a click on the first .tab element, to set up the page.
-};
+    });
+    $('#menu .tab:first').click(); 
+}
 
 $(document).ready(function() {
     TabContent();
-})
+});
 
 // TabContent();
 
