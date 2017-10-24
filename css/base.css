@@ -41,3 +41,25 @@ a:hover {
 .display {
     display: block !important;
 }
+
+
+/*  -------- Media Queries ------- */
+
+/* Mobile */
+@media only screen and (max-width: 653px) and (min-width: 320px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 1280px) and (min-width: 653px) {
+    h1 {
+        font-size: 35px;
+    }
+}
+
+/* Desktop */
+@media only screen and (max-width: 9000px) and (min-width: 1280px) {
+
+}
