@@ -13,10 +13,6 @@
     /* display: flex; */
 }
 
-#menu li {
-    padding: 0 0px 0 30px;
-}
-
 #ham {
     position: fixed;
     right: 0;
@@ -193,6 +189,9 @@
     }
     #menu{
         display: block !important;
+    }
+    #menu li {
+        padding: 0 0px 0 30px;
     }
     #social {
         display: block;
