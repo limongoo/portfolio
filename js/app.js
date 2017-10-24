@@ -117,7 +117,7 @@ function TabContent() {
         $('#showMenu').text('menu');
 })
   
-$('#menu .tab:first').click(); // Let's now trigger a click on the first .tab element, to set up the page.
+$('#menu .tab:first').click(); 
 };
 
 $(document).ready(function() {
