@@ -86,14 +86,14 @@ projectArray.forEach(function(pro) {
 
 // Show menu on mobile and tablet
 $('#showMenu').click(function() {
+    var $menu = $('#menu');
     if($('#menu').is(':hidden')){
         $('#menu').fadeIn(500);
         $(this).text('close');
     }
-    else
+    else {
     $('#menu').fadeOut(500);
-    if($('#menu').is(':hidden')){
-        $('#showMenu').text('menu');
+    $('#showMenu').text('menu');
     }
 });
 
