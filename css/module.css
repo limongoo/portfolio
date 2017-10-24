@@ -13,10 +13,6 @@
     /* display: flex; */
 }
 
-#menu{
-    /* display: flex; */
-}
-
 #menu li {
     padding: 0 0px 0 30px;
 }
@@ -129,9 +125,6 @@
         margin: 10px 0 50px;
     }
 
-    #menu{
-    }
-
     #menu li {
         padding-right: 5%;
         line-height: 2;
@@ -163,9 +156,6 @@
 
 /* Tablet */
 @media only screen and (max-width: 1280px) and (min-width: 653px) {
-    #menu{
-    }
-
     #menu li {
         padding-right: 5%;
         line-height: 2;
