@@ -185,7 +185,6 @@
     }
     #ham {
         display: block;
-        z-index: 10000;
     }
 
     #navigation {
