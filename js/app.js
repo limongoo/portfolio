@@ -86,13 +86,13 @@ projectArray.forEach(function(pro) {
 
 // Show menu on mobile and tablet
 $('#showMenu').click(function() {
-    var $menu = $('#menu');
-    if($('#menu').is(':hidden')){
-        $('#menu').fadeIn(500);
+    var $menu = $('#navigation');
+    if($menu.is(':hidden')){
+        $menu.fadeIn(500);
         $(this).text('close');
     }
     else {
-    $('#menu').fadeOut(500);
+    $menu.fadeOut(500);
     $('#showMenu').text('menu');
     }
 });
@@ -113,7 +113,7 @@ function TabContent() {
         var selectTab = $(this).data('content');
         $('.content').hide();
         $('#' + selectTab).fadeIn(500);
-        $('#menu').fadeOut(500);
+        $('#navigation').fadeOut(500);
         $('#showMenu').text('menu');
 })
   

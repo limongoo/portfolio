@@ -59,3 +59,4 @@ Live Repository:
 - Minor css adjustment to make tab menu to work
 - Menu auto closes now when menu is clicked on mobile view
 - Added fadeIn transistions for mobile menu, minor css update
+- Had to adjust mobile menu structure for better css control
