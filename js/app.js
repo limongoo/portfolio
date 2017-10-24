@@ -113,7 +113,7 @@ function TabContent() {
         var selectTab = $(this).data('content');
         $('.content').hide();
         $('#' + selectTab).fadeIn(500);
-        $('#menu').hide();
+        $('#menu').fadeOut(500);
         $('#showMenu').text('menu');
 })
   
