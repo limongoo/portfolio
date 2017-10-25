@@ -10,7 +10,7 @@
     right: 0;
     padding-right: 300px;
     z-index: 1000;
-    /* display: flex; */
+    display: none;
 }
 
 #ham {
@@ -67,7 +67,7 @@
 }
 
 #projectItem:hover {
-    background-color: rgba(0,229, 255, 0.8);
+    /* background-color: rgba(0,229, 255, 0.8); */
     z-index: 10000;
 }
 
@@ -86,7 +86,7 @@
 
 #projectBox:hover{
     transform: scale(.95);
-    
+    /* background-color: rgba(0,229, 255, 0.8); */
     padding-bottom: 0px;
     margin-bottom: 10px;
     z-index: 1000;
@@ -96,18 +96,22 @@
     border-bottom: 0px;
 }
 
-/* #overlay    {  
+#overlay {  
     background:rgba(0,0,0,.75);
     text-align:center;
     padding:45px 0 66px 0;
     opacity:0;
-    -webkit-transition: opacity .25s ease;} */
+    -webkit-transition: opacity .25s ease;
+    position: absolute;
+    z-index: 1000;
+
+}
 
 #imgShow {
     position: relative;
     max-width: 140%;
     transition: 0.3s ease-in-out;
-    z-index: -1;
+    /* z-index: -1; */
     /* display: none; */
 }
 
