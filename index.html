@@ -10,7 +10,19 @@
 
         <!-- Handlebars JS -->
         <script id="project-template" type="text/x-handlebars-template">
-            
+            <div id="projectContainer">
+                <div id="projectItem" class="hide">
+                    <div id="projectBox" class="container">
+                        <a href="{{link}}">
+                            <img id="imgShow" src="{{image}}" class="image">
+                            <div class="overlay">
+                                <div class="overlayText">view</div>
+                            </div>
+                        </a>
+                    </div>
+                    <a href="{{link}}" id="projectTitle"></a>
+                </div>
+            </div>
         </script>
     </head>
     <body>
@@ -44,11 +56,11 @@
                         <a href="#">
                             <img id="imgShow" src="" class="image">
                             <div class="overlay">
-                                <div id="projectTitle" class="overlayText">view</div>
+                                <div class="overlayText">view</div>
                             </div>
                         </a>
                     </div>
-                    <a href="#" id="projectTitle">Project</a>
+                    <a href="#" id="projectTitle"></a>
                 </div>
             </div>
         </section>

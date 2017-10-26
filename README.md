@@ -68,3 +68,4 @@ Live Repository:
 #### 10/25
 - Adjusting project template before moving to handlebars
 - CSS styling for project hover state
+- Handlebars template in place in head section
