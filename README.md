@@ -69,3 +69,6 @@ Live Repository:
 - Adjusting project template before moving to handlebars
 - CSS styling for project hover state
 - Handlebars template in place in head section
+- Handlerbars compile and add back to html works
+- CSS and JS cleanup
+- CSS styling add and cleanup
