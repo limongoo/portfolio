@@ -72,3 +72,4 @@ Live Repository:
 - Handlerbars compile and add back to html works
 - CSS and JS cleanup
 - CSS styling add and cleanup
+- Added color overlay styling for each project item

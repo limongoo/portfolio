@@ -2,43 +2,51 @@
 
 var data = [
 {
-    image:   'img/3dhouse.jpg',
-    title:   'Project 1',
-    link:    'http://ivanlimongan.com/',
+    image:  'img/3dhouse.jpg',
+    title:  'Project 1',
+    link:   'http://ivanlimongan.com/',
+    class:  'retro',
 },
 {
     image:  'img/3dhouse.jpg',
     title:  'Project 2',
-    link:   '#'
+    link:   '#',
+    class:  'dark',
 },
 {
     image:  'img/3dhouse.jpg',
     title:  'Project 3',
-    link:   '#'
+    link:   '#',
+    class:  'water',
 },
 {
     image:  'img/3dhouse.jpg',
     title:  'Project 4',
-    link:   '#'
+    link:   '#',
+    class:  'fire',
 },
 {
     image:  'img/3dhouse.jpg',
     title:  'Project 5',
-    link:   '#'
+    link:   '#',
+    class:  'miaka',
 },
 {
     image:  'img/3dhouse.jpg',
     title:  'Project 6',
-    link:   '#'
+    link:   '#',
+    class:  'midnight',
 },
 {
     image:  'img/3dhouse.jpg',
     title:  'Project 7',
-    link:   '#'
+    link:   '#',
+    class:  'moss',
 },
 {
     image:  'img/3dhouse.jpg',
     title:  'Project 8',
-    link:   '#'
+    link:   '#',
+    class:  'oh',
 },
 ];

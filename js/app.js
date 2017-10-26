@@ -8,6 +8,7 @@ function project (projectData) {
     this.image = projectData.image;
     this.title = projectData.title;
     this.link = projectData.link;
+    this.class = projectData.class;
 }
 
 project.prototype.toHtml = function() {

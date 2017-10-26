@@ -47,6 +47,15 @@
   }
 
 
+/* ------ Blend --------- */
+.blend {
+    mix-blend-mode: difference;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-85%);
+}
+
+
 /* ------  Project Item Style ----------- */
 #projectContainer {
     margin: 4% 5% 4% 4%;
@@ -76,7 +85,7 @@
 }
 
 #projectBox:hover ~ #projectTitle{
-    visibility: hidden;
+    opacity: 0.4;
 }
 
 .overlay {  
@@ -89,9 +98,6 @@
     widows: 100%;
     opacity: 0;
     transition: 0.3s ease all;
-    background: #114357;  
-    background: -webkit-linear-gradient(to right, #F29492, #114357);  
-    background: linear-gradient(to right, #F29492, #114357); 
 }
 
 .image {
@@ -120,6 +126,8 @@
     font-weight: 300;
     font-size: 20px;
     letter-spacing: 3px;
+    padding-bottom: 5px;
+    transition: 0.3s ease all;
 }
 
 #imgShow {
@@ -132,6 +140,56 @@
  
 #projectTitle {
     text-transform: lowercase;
+}
+
+
+/* --------- Overlay Colors - https://uigradients.com ------- */
+.retro {
+    background: #114357;  
+    background: -webkit-linear-gradient(to right, #F29492, #114357);  
+    background: linear-gradient(to right, #F29492, #114357); 
+}
+
+.dark {
+    background: #3C3B3F;  
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  
+    background: linear-gradient(to right, #605C3C, #3C3B3F);    
+}
+
+.water {
+    background: #348F50; 
+    background: -webkit-linear-gradient(to right, #56B4D3, #348F50); 
+    background: linear-gradient(to right, #56B4D3, #348F50);  
+}
+
+.moss {
+    background: #134E5E; 
+    background: -webkit-linear-gradient(to right, #71B280, #134E5E); 
+    background: linear-gradient(to right, #71B280, #134E5E);   
+}
+
+.miaka {
+    background: #FC354C; 
+    background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
+    background: linear-gradient(to right, #0ABFBC, #FC354C);    
+}
+
+.midnight {
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);      
+}
+
+.fire {
+    background: #cb2d3e; 
+    background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e); 
+    background: linear-gradient(to right, #ef473a, #cb2d3e);   
+}
+
+.oh {
+    background: #00b09b; 
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b); 
+    background: linear-gradient(to right, #96c93d, #00b09b); 
 }
 
 
