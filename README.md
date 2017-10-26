@@ -64,3 +64,7 @@ Live Repository:
 
 #### 10/24
 - Implementing handlerbars templating system
+
+#### 10/25
+- Adjusting project template before moving to handlebars
+- CSS styling for project hover state

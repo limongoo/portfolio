@@ -68,7 +68,7 @@
 
 #projectItem:hover {
     /* background-color: rgba(0,229, 255, 0.8); */
-    z-index: 10000;
+    /* z-index: 10000; */
 }
 
 #projectBox {
@@ -78,46 +78,82 @@
     width: 300px; */
     overflow: hidden;
     transition: 0.3s ease all;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     /* background-color: rgba(0,229, 255, 0.8); */
-    /* position: absolute; */
-    z-index: 1000;
+    position: relative;
+    /* z-index: 1000; */
 }
 
-#projectBox:hover{
+#container:hover{
     transform: scale(.95);
     /* background-color: rgba(0,229, 255, 0.8); */
-    padding-bottom: 0px;
+    /* padding-bottom: 0px;
     margin-bottom: 10px;
-    z-index: 1000;
+    z-index: 1000; */
 }
 
 #projectBox a:hover {
-    border-bottom: 0px;
+    /* border-bottom: 0px; */
 }
 
-#overlay {  
-    background:rgba(0,0,0,.75);
-    text-align:center;
-    padding:45px 0 66px 0;
-    opacity:0;
-    -webkit-transition: opacity .25s ease;
-    position: absolute;
-    z-index: 1000;
+#projectBox:hover ~ #projectTitle{
+    visibility: hidden;
+}
 
+.overlay {  
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    widows: 100%;
+    opacity: 0;
+    transition: 0.3s ease all;
+    background: #114357;  
+    background: -webkit-linear-gradient(to right, #F29492, #114357);  
+    background: linear-gradient(to right, #F29492, #114357); 
+}
+
+.image {
+    display: block;
+    width: 150%;
+    height: auto;
+    position: relative;
+}
+
+.image:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease all;
+}
+
+.container:hover .overlay {
+    opacity: 0.8;
+}
+
+.overlayText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 5px;
 }
 
 #imgShow {
-    position: relative;
+    /* position: relative;
     max-width: 140%;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out; */
     /* z-index: -1; */
     /* display: none; */
 }
 
 #imgShow:hover {
-    transform: scale(1.05);
-    border-bottom: 0px;
+    /* transform: scale(1.05);
+    border-bottom: 0px; */
 }
  
 #projectName {
@@ -126,7 +162,7 @@
 }
 
 #projectName:hover {
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 }
 
 
