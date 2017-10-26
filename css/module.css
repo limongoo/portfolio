@@ -86,6 +86,7 @@
 
 #projectBox:hover ~ #projectTitle{
     opacity: 0.4;
+    margin: 0 0 0 10px;
 }
 
 .overlay {  
@@ -140,6 +141,7 @@
  
 #projectTitle {
     text-transform: lowercase;
+    transition: 0.3s ease all;
 }
 
 

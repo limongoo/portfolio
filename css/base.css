@@ -56,6 +56,18 @@ a:hover {
     display: block !important;
 }
 
+.line {
+    height: 0;
+    width: 3rem;
+    display: inline-block;
+    vertical-align: middle;
+    border-top: .1rem solid;
+    top: -.1rem;
+    position: relative;
+    margin-right: 10px;
+    color: white;
+}
+
 
 /*  -------- Media Queries ------- */
 
