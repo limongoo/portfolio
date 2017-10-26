@@ -5,7 +5,6 @@
 }
 
 #navigation {
-    /* align-self: flex-end; */
     position: fixed;
     right: 0;
     padding-right: 300px;
@@ -22,10 +21,8 @@
 
 
 
-
 /* ------- Social ------- */
 #social {
-    /* display: flex; */
     opacity: 1;
     transition: 0.3s ease all;
     right: 0;
@@ -56,19 +53,12 @@
     margin: 4%;
     display: flex;
     flex-wrap: wrap;
-    /* margin-left: -10px;
-	margin-top: -10px; */
 }
 
 #projectItem {
     flex: 1 0 300px;
     margin-left: 15px;
 	margin-bottom: 90px;
-}
-
-#projectItem:hover {
-    /* background-color: rgba(0,229, 255, 0.8); */
-    /* z-index: 10000; */
 }
 
 #projectBox {
@@ -79,21 +69,11 @@
     overflow: hidden;
     transition: 0.3s ease all;
     margin-bottom: 10px;
-    /* background-color: rgba(0,229, 255, 0.8); */
     position: relative;
-    /* z-index: 1000; */
 }
 
 #container:hover{
     transform: scale(.95);
-    /* background-color: rgba(0,229, 255, 0.8); */
-    /* padding-bottom: 0px;
-    margin-bottom: 10px;
-    z-index: 1000; */
-}
-
-#projectBox a:hover {
-    /* border-bottom: 0px; */
 }
 
 #projectBox:hover ~ #projectTitle{
@@ -157,12 +137,7 @@
 }
  
 #projectName {
-    /* padding: 10px 0 0; */
     text-transform: lowercase;
-}
-
-#projectName:hover {
-    /* padding-bottom: 5px; */
 }
 
 
