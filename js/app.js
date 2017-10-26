@@ -11,13 +11,15 @@ function project (projectData) {
 }
 
 project.prototype.toHtml = function() {
-    var $projecTemplate = $('div.hide').clone().removeClass('hide');
+    // var $projecTemplate = $('div.hide').clone().removeClass('hide');
+    // $projecTemplate.find('#imgShow').attr('src', this.image);
+    // $projecTemplate.find('#projectTitle').text(this.title);
+    // $projecTemplate.find('#projectItem a').attr('href', this.link);    
+    // return $projecTemplate;
 
-    $projecTemplate.find('#imgShow').attr('src', this.image);
-    $projecTemplate.find('#projectTitle').text(this.title);
-    $projecTemplate.find('#projectItem a').attr('href', this.link);    
-
-    return $projecTemplate;
+    var projectFiller = Handlebars.compile($('#project-template').html()); // Compile templates
+    $('div #projectItem').removeClass('hide');
+    return projectFiller(this); // return compiled templates back to html
 };
 
 data.forEach(function(newPro) {
