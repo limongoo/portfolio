@@ -61,3 +61,21 @@ Live Repository:
 - Added fadeIn transistions for mobile menu, minor css update
 - Had to adjust mobile menu structure for better css control
 - Desktop menu prooperly working now, css update
+
+#### 10/24
+- Implementing handlerbars templating system
+
+#### 10/25
+- Adjusting project template before moving to handlebars
+- CSS styling for project hover state
+- Handlebars template in place in head section
+- Handlerbars compile and add back to html works
+- CSS and JS cleanup
+- CSS styling add and cleanup
+- Added color overlay styling for each project item
+
+#### 10/26
+- Worked on About tab content
+- About css
+- Added tag object to constructor
+- Adjusted project css

@@ -11,6 +11,36 @@ header {
     padding: 30px 0;
 }
 
+#fullContainer {
+    margin: 0;
+    padding: 0;
+}
+
+.pullLeft {
+    float: left;
+}
+
+.pullRight {
+    float: right;
+}
+
+.pullCenter {
+    text-align: center;
+}
+
+.textCenter {
+    padding: 0 15%;
+    text-align: center;
+}
+
+.textLeft {
+    padding: 0 30% 0 0;
+}
+
+.textRight {
+    padding: 0 0 0 30%;
+}
+
 
 /*  -------- Media Queries ------- */
 

@@ -5,12 +5,11 @@
 }
 
 #navigation {
-    /* align-self: flex-end; */
     position: fixed;
     right: 0;
     padding-right: 300px;
     z-index: 1000;
-    /* display: flex; */
+    display: none;
 }
 
 #ham {
@@ -21,12 +20,9 @@
 }
 
 
-
-
 /* ------- Social ------- */
 #social {
-    /* display: flex; */
-    opacity: 1;
+    /* opacity: 1; */
     transition: 0.3s ease all;
     right: 0;
     position: fixed;
@@ -42,74 +38,177 @@
   .soc {
     padding: 10px 20px 0 0;
     transition: 0.3s ease all;
-    opacity: 0.8;
+    opacity: 0.4;
   }
   
   a.soc:hover {
-    opacity: 0.4;
+    opacity: 1;
     border-bottom: 0px;
   }
 
 
 /* ------  Project Item Style ----------- */
 #projectContainer {
-    margin: 4%;
+    margin: 4% 5% 4% 4%;
     display: flex;
     flex-wrap: wrap;
-    /* margin-left: -10px;
-	margin-top: -10px; */
 }
 
 #projectItem {
-    flex: 1 0 300px;
+    flex: 1 0 400px;
     margin-left: 15px;
-	margin-bottom: 90px;
+	/* margin-bottom: 50px; */
 }
 
 #projectBox {
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 60%;
+    max-width: 100%;
+    /* height: 300px;
+    width: 300px; */
     overflow: hidden;
     transition: 0.3s ease all;
-    padding-bottom: 10px;
-}
-
-#projectBox:hover{
-    transform: scale(.95);
-    background: rgba(0,229, 255, 0.8);
-    padding-bottom: 0px;
     margin-bottom: 10px;
+    position: relative;
 }
 
-#projectBox a:hover {
-    border-bottom: 0px;
+.container:hover{
+    transform: scale(.95);
 }
 
-/* #overlay    {  
-    background:rgba(0,0,0,.75);
-    text-align:center;
-    padding:45px 0 66px 0;
-    opacity:0;
-    -webkit-transition: opacity .25s ease;} */
+.overlay {  
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    widows: 100%;
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+
+.image {
+    display: block;
+    width: 150%;
+    height: auto;
+    position: relative;
+}
+
+.image:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease all;
+}
+
+.container:hover .overlay {
+    opacity: 0.8;
+}
+
+.overlayText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-bottom: 5px;
+    transition: 0.3s ease all;
+}
 
 #imgShow {
-    position: relative;
-    max-width: 150%;
-    transition: 0.3s ease-in-out;
+    /* transition: 0.3s ease-in-out; */
 }
 
 #imgShow:hover {
-    transform: scale(1.05);
-    border-bottom: 0px;
+    /* transform: scale(1.05); */
 }
  
-#projectName {
-    /* padding: 10px 0 0; */
+#projectTitle {
     text-transform: lowercase;
+    transition: 0.3s ease all;
 }
 
-#projectName:hover {
-    padding-bottom: 5px;
+#projectBox:hover ~ #projectTitle{
+    opacity: 0.4;
+    margin: 0 0 0 10px;
+}
+
+#projectTag {
+    text-transform: lowercase;
+    transition: 0.3s ease all;
+    font-size: 10px;
+    opacity: 0;
+}
+
+#projectBox:hover ~ #projectTag{
+    opacity: 0.8;
+    margin: 0 0 0 10px;
+
+}
+
+
+/* --------- Overlay Colors - https://uigradients.com ------- */
+.retro {
+    background: #114357;  
+    background: -webkit-linear-gradient(to right, #F29492, #114357);  
+    background: linear-gradient(to right, #F29492, #114357); 
+}
+
+.dark {
+    background: #3C3B3F;  
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  
+    background: linear-gradient(to right, #605C3C, #3C3B3F);    
+}
+
+.water {
+    background: #348F50; 
+    background: -webkit-linear-gradient(to right, #56B4D3, #348F50); 
+    background: linear-gradient(to right, #56B4D3, #348F50);  
+}
+
+.moss {
+    background: #134E5E; 
+    background: -webkit-linear-gradient(to right, #71B280, #134E5E); 
+    background: linear-gradient(to right, #71B280, #134E5E);   
+}
+
+.miaka {
+    background: #FC354C; 
+    background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
+    background: linear-gradient(to right, #0ABFBC, #FC354C);    
+}
+
+.midnight {
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);      
+}
+
+.fire {
+    background: #cb2d3e; 
+    background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e); 
+    background: linear-gradient(to right, #ef473a, #cb2d3e);   
+}
+
+.oh {
+    background: #00b09b; 
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b); 
+    background: linear-gradient(to right, #96c93d, #00b09b); 
+}
+
+
+/* -------- About ---------- */
+.blend {
+    mix-blend-mode: difference;
+    position: absolute;
+    /* top: 50%;
+    transform: translateY(-85%); */
+}
+
+.heroText {
+    padding: 5% 40% 0 0;
 }
 
 
@@ -117,6 +216,10 @@
 
 /* Mobile */
 @media only screen and (max-width: 653px) and (min-width: 320px) {
+    #projectItem {
+        flex: 1 0 300px; 
+    }
+    
     #projectContainer #projectItem {
         margin: 10px 0 50px;
     }
@@ -182,22 +285,27 @@
 /* Desktop */
 @media only screen and (max-width: 9000px) and (min-width: 1280px) {
     #projectContainer #projectItem {
-        margin: 0 0 90px 20px;
+        margin: 0 0 0 20px;
     }
+
     #ham {
         display: none;
     }
+
     #menu{
-        display: flex !important;
+        display: flex;
         padding-left: 400px;
     }
+
     #menu li {
         padding: 0 0px 0 30px;
     }
+
     #social {
         display: block;
         margin-top: -5px;
     }
+    
     #navigation {
         /* padding: 0px; */
         display: flex !important;

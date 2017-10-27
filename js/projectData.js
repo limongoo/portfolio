@@ -2,43 +2,59 @@
 
 var data = [
 {
-    image:    'img/3dhouse.jpg',
-    title:    'Project 1',
-    link:     '#',
+    image:  'img/3dhouse.jpg',
+    title:  'Project 1',
+    link:   'http://ivanlimongan.com/',
+    class:  'retro',
+    tag:    'art direction | front-end development | ux'
 },
 {
     image:  'img/3dhouse.jpg',
     title:  'Project 2',
-    link:   '#'
+    link:   '#',
+    class:  'dark',
+    tag:    '',
 },
 {
     image:  'img/3dhouse.jpg',
     title:  'Project 3',
-    link:   '#'
+    link:   '#',
+    class:  'water',
+    tag:    '',
 },
 {
     image:  'img/3dhouse.jpg',
     title:  'Project 4',
-    link:   '#'
+    link:   '#',
+    class:  'fire',
+    tag:    '',
 },
 {
     image:  'img/3dhouse.jpg',
     title:  'Project 5',
-    link:   '#'
+    link:   '#',
+    class:  'miaka',
+    tag:    '',
 },
 {
     image:  'img/3dhouse.jpg',
     title:  'Project 6',
-    link:   '#'
+    link:   '#',
+    class:  'midnight',
+    tag:    '',
 },
 {
     image:  'img/3dhouse.jpg',
     title:  'Project 7',
-    link:   '#'
+    link:   '#',
+    class:  'moss',
+    tag:    '',
 },
 {
     image:  'img/3dhouse.jpg',
     title:  'Project 8',
-    link:   '#'
+    link:   '#',
+    class:  'oh',
+    tag:    '',
 },
 ];

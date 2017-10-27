@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang=en>
     <head>
+        <meta charset=utf-8>
         <title>Ivan Limongan - 301 Portfolio Website</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/base.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700" rel="stylesheet">
+
+        <!-- Handlebars JS -->
+        <script id="project-template" type="text/x-handlebars-template">
+                <div id="projectItem">
+                    <div id="projectBox" class="container">
+                        <a href="{{link}}" target="_blank">
+                            <img id="imgShow" src="{{image}}" class="image">
+                            <div class="overlay {{class}}">
+                                <div class="overlayText">view</div>
+                            </div>
+                        </a>
+                    </div>
+                    <a href="{{link}}" id="projectTitle" target="_blank">{{title}}</a><br>
+                    <span id="projectTag">{{tag}}</span>
+                </div>
+        </script>
+
     </head>
     <body>
         <header>
@@ -25,37 +44,44 @@
                 </nav>
         </header>
 
+        <!-- Main Project -->
         <section id="main" class="content">
             <div id="container">
-                <p>current projects</p>
+                <p><span class="line"></span>projects</p>
             </div>
-            <!-- <div id="projectContainer"></div> -->
 
             <!-- JQuery project template -->
             <div id="projectContainer">
-                <div id="projectItem" class="hide">
-                    <div id="projectBox">
+                <!-- <div id="projectItem" class="hide">
+                    <div id="projectBox" class="container">
                         <a href="#">
-                            <img id="imgShow" src="">
+                            <img id="imgShow" src="" class="image">
+                            <div class="overlay">
+                                <div class="overlayText">view</div>
+                            </div>
                         </a>
                     </div>
-                    <a href="#" id="projectTitle">Project</a>
-                </div>
+                    <a href="#" id="projectTitle"></a>
+                </div> -->
             </div>
         </section>
 
+        <!-- About -->
         <section id="about" class="content">
             <div id="container">
-                <p>bio</p>
+                <p><span class="line"></span>bio</p>
             </div>
             <div id="container">
-                <h1>Hello, I'm Ivan Limongan — User Experience &amp; Front-End Developer from Portland, OR.</h1>
-                <h1>I focus on user-base and functional design/development</h1>
+                <img class="pullRight" src="img/howe-use.jpg" style="max-width: 800px;">
+                <h1 class="blend heroText">Hello, I'm Ivan Limongan, User Experience Designer &amp; Front-End Developer from Portland, OR.</h1> 
             </div>
+            <div class="clear"></div>
+            <div id="container">
+                    <h2 class="textCenter">I focus on user-base and functional design/development</h2>
+            </div>
+                
         </section>
 
-
-        <script src="js/jquery-3.2.1.js"></script>
         <script src="js/projectData.js"></script>
         <script src="js/app.js"></script>
     </body>

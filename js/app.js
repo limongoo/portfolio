@@ -1,6 +1,68 @@
 'use strict';
-
 console.log('start');
+
+// JQuery Constructor
+var projectArray = [];
+
+function project (projectData) {
+    this.image = projectData.image;
+    this.title = projectData.title;
+    this.link = projectData.link;
+    this.class = projectData.class;
+    this.tag = projectData.tag;
+}
+
+project.prototype.toHtml = function() {
+    // var $projecTemplate = $('div.hide').clone().removeClass('hide');
+    // $projecTemplate.find('#imgShow').attr('src', this.image);
+    // $projecTemplate.find('#projectTitle').text(this.title);
+    // $projecTemplate.find('#projectItem a').attr('href', this.link);    
+    // return $projecTemplate;
+
+    var projectFiller = Handlebars.compile($('#project-template').html()); // Compile templates
+    $('div #projectItem').removeClass('hide');
+    return projectFiller(this); // return compiled templates back to html
+};
+
+data.forEach(function(newPro) {
+    projectArray.push(new project(newPro));
+});
+
+projectArray.forEach(function(pro) {
+    $('#projectContainer').append(pro.toHtml());
+});
+
+
+// Show menu on mobile and tablet
+$('#showMenu').click(function() {
+    var $menu = $('#navigation');
+    if($menu.is(':hidden')){
+        $menu.fadeIn(500);
+        $(this).text('close');
+    }
+    else {
+    $menu.fadeOut(500);
+    $('#showMenu').text('menu');
+    }
+});
+
+// Tab menu function
+function TabContent() {
+    $('#menu li').on('click', function() {
+        var selectTab = $(this).data('content');
+        $('.content').hide();
+        $('#' + selectTab).fadeIn(500);
+        $('#navigation').fadeOut(500);
+        $('#showMenu').text('menu');
+    });
+    $('#menu .tab:first').click(); 
+}
+
+$(document).ready(function() {
+    TabContent();
+});
+
+console.log('end');
 
 // constructor
 // var project = function (image, title, link) {
@@ -53,66 +115,3 @@ console.log('start');
 //     }
 // }
 // window.addEventListener("load", makeItems);
-
-
-
-// JQuery Constructor
-var projectArray = [];
-
-function project (projectData) {
-    this.image = projectData.image;
-    this.title = projectData.title;
-    this.link = projectData.link;
-}
-
-project.prototype.toHtml = function() {
-    var $projecTemplate = $('div.hide').clone().removeClass('hide');
-
-    $projecTemplate.find('#imgShow').attr('src', this.image);
-    $projecTemplate.find('#projectTitle').text(this.title);
-    $projecTemplate.find('#projectItem a').attr('href', this.link);    
-
-    return $projecTemplate;
-};
-
-data.forEach(function(newPro) {
-    projectArray.push(new project(newPro));
-});
-
-projectArray.forEach(function(pro) {
-    $('#projectContainer').append(pro.toHtml());
-});
-
-
-// Show menu on mobile and tablet
-$('#showMenu').click(function() {
-    var $menu = $('#navigation');
-    if($menu.is(':hidden')){
-        $menu.fadeIn(500);
-        $(this).text('close');
-    }
-    else {
-    $menu.fadeOut(500);
-    $('#showMenu').text('menu');
-    }
-});
-
-// Tab menu function
-function TabContent() {
-    $('#menu li').on('click', function() {
-        var selectTab = $(this).data('content');
-        $('.content').hide();
-        $('#' + selectTab).fadeIn(500);
-        $('#navigation').fadeOut(500);
-        $('#showMenu').text('menu');
-    });
-    $('#menu .tab:first').click(); 
-}
-
-$(document).ready(function() {
-    TabContent();
-});
-
-// TabContent();
-
-console.log('end');
