@@ -38,7 +38,7 @@ Live Repository:
 - Media query styling
 - Hide menu and social media on mobile and tablet view
 - Show condensed menu on mobile and tablet view
-- Converted css into smacss
+- Converted CSS into smacss
 
 #### 10/20
 - Put project data into its own js file
@@ -50,7 +50,7 @@ Live Repository:
 - Added .eslintrc rules
 
 #### 10/22
-- Minor css
+- Minor CSS
 - JQuery menu show and hide works now on mobile view
 - Working on toggleClass for mobile menu 
 
@@ -58,9 +58,9 @@ Live Repository:
 - Tab menu works now for mobile and desktop view. Still working on closing menu on click for mobile/tablet view.
 - Minor css adjustment to make tab menu to work
 - Menu auto closes now when menu is clicked on mobile view
-- Added fadeIn transistions for mobile menu, minor css update
+- Added fadeIn transistions for mobile menu, minor CSS update
 - Had to adjust mobile menu structure for better css control
-- Desktop menu prooperly working now, css update
+- Desktop menu prooperly working now, CSS update
 
 #### 10/24
 - Implementing handlerbars templating system
@@ -76,6 +76,10 @@ Live Repository:
 
 #### 10/26
 - Worked on About tab content
-- About css
+- About CSS
 - Added tag object to constructor
-- Adjusted project css
+- Adjusted project CSS
+
+#### 10/27
+- CSS styling
+- Project tags styling
