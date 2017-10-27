@@ -9,6 +9,7 @@ function project (projectData) {
     this.title = projectData.title;
     this.link = projectData.link;
     this.class = projectData.class;
+    this.tag = projectData.tag;
 }
 
 project.prototype.toHtml = function() {

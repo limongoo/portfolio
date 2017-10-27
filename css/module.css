@@ -75,11 +75,6 @@
     transform: scale(.95);
 }
 
-#projectBox:hover ~ #projectTitle{
-    opacity: 0.4;
-    margin: 0 0 0 10px;
-}
-
 .overlay {  
     position: absolute;
     top: 0;
@@ -133,6 +128,24 @@
 #projectTitle {
     text-transform: lowercase;
     transition: 0.3s ease all;
+}
+
+#projectBox:hover ~ #projectTitle{
+    opacity: 0.4;
+    margin: 0 0 0 10px;
+}
+
+#projectTag {
+    text-transform: lowercase;
+    transition: 0.3s ease all;
+    font-size: 10px;
+    opacity: 0;
+}
+
+#projectBox:hover ~ #projectTag{
+    opacity: 0.8;
+    margin: 0 0 0 10px;
+
 }
 
 

@@ -77,3 +77,5 @@ Live Repository:
 #### 10/26
 - Worked on About tab content
 - About css
+- Added tag object to constructor
+- Adjusted project css
