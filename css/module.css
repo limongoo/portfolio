@@ -216,6 +216,10 @@
     padding: 5% 40% 0 0;
 }
 
+.aOne {
+    max-width: 800px;
+}
+
 
 /*  -------- Media Queries ------- */
 
@@ -259,6 +263,15 @@
     #projectTag {
         opacity: 1;
     }
+
+    .aOne {
+        max-width: 100%;
+    }
+
+    .blend {
+        mix-blend-mode: difference;
+        position: relative;
+    }
     
 }
 
@@ -295,6 +308,19 @@
 
     #projectTag {
         opacity: 1;
+    }
+
+    .aOne {
+        max-width: 100%;
+    }
+
+    .blend {
+        mix-blend-mode: difference;
+        position: relative;
+    }
+
+    .heroText {
+        padding: 80% 20% 0 0;
     }
 }
 
