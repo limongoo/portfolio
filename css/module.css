@@ -203,6 +203,10 @@
 
 /* Mobile */
 @media only screen and (max-width: 653px) and (min-width: 320px) {
+    #projectItem {
+        flex: 1 0 300px; 
+    }
+    
     #projectContainer #projectItem {
         margin: 10px 0 50px;
     }
@@ -268,7 +272,7 @@
 /* Desktop */
 @media only screen and (max-width: 9000px) and (min-width: 1280px) {
     #projectContainer #projectItem {
-        margin: 0 0 0px 20px;
+        margin: 0 0 0 20px;
     }
 
     #ham {
