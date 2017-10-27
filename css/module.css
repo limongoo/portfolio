@@ -47,15 +47,6 @@
   }
 
 
-/* ------ Blend --------- */
-.blend {
-    mix-blend-mode: difference;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-85%);
-}
-
-
 /* ------  Project Item Style ----------- */
 #projectContainer {
     margin: 4% 5% 4% 4%;
@@ -64,13 +55,13 @@
 }
 
 #projectItem {
-    flex: 1 0 300px;
+    flex: 1 0 400px;
     margin-left: 15px;
-	margin-bottom: 90px;
+	/* margin-bottom: 50px; */
 }
 
 #projectBox {
-    max-height: 100%;
+    max-height: 60%;
     max-width: 100%;
     /* height: 300px;
     width: 300px; */
@@ -195,6 +186,19 @@
 }
 
 
+/* -------- About ---------- */
+.blend {
+    mix-blend-mode: difference;
+    position: absolute;
+    /* top: 50%;
+    transform: translateY(-85%); */
+}
+
+.heroText {
+    padding: 5% 40% 0 0;
+}
+
+
 /*  -------- Media Queries ------- */
 
 /* Mobile */
@@ -264,7 +268,7 @@
 /* Desktop */
 @media only screen and (max-width: 9000px) and (min-width: 1280px) {
     #projectContainer #projectItem {
-        margin: 0 0 90px 20px;
+        margin: 0 0 0px 20px;
     }
 
     #ham {

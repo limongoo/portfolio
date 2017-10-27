@@ -73,3 +73,7 @@ Live Repository:
 - CSS and JS cleanup
 - CSS styling add and cleanup
 - Added color overlay styling for each project item
+
+#### 10/26
+- Worked on About tab content
+- About css
