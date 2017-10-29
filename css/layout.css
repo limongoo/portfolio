@@ -41,6 +41,11 @@ header {
     padding: 0 0 0 30%;
 }
 
+.flex {
+    display: flex;
+    direction: row;
+
+}
 
 /*  -------- Media Queries ------- */
 

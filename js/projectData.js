@@ -6,7 +6,7 @@ var data = [
     title:  'Project 1',
     link:   'http://ivanlimongan.com/',
     class:  'retro',
-    tag:    'art direction | front-end development | ux'
+    tag:    '<span class="tags">art direction</span>  <span class="tags">front-end development</span>  <span class="tags">ux</span>'
 },
 {
     image:  'img/3dhouse.jpg',
