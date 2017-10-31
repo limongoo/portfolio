@@ -24,7 +24,7 @@ var data = [
     },
     {
         image:  'img/3dhouse.jpg',
-        title:  'pdx neightborhood',
+        title:  'PDX neighborhood',
         link:   'http://pdx-neighbors.github.io/pdx-neighbors/',
         class:  'dark',
         tag:    '<span class="tags">javascript</span> <span class="tags">html</span> <span class="tags">css</span> <span class="tags">design</span>',
