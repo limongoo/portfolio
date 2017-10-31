@@ -10,7 +10,7 @@ var data = [
     },
     {
         image:  'img/3dhouse.jpg',
-        title:  'mpowered media',
+        title:  'MPowered media',
         link:   'http://mpoweredmedia.com',
         class:  'oh',
         tag:    '<span class="tags">design</span> <span class="tags">ux</span> <span class="tags">html</span> <span class="tags">css</span> <span class="tags">wordpress</span>',
