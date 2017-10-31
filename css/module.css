@@ -136,9 +136,9 @@
 }
 
 #projectTag {
-    text-transform: lowercase;
+    text-transform: uppercase;
     transition: 0.3s ease all;
-    font-size: 10px;
+    font-size: 9px;
     opacity: 0;
 }
 
