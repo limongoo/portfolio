@@ -84,3 +84,7 @@ Live Repository:
 - CSS styling
 - Project tags styling
 - Content for about section
+
+#### 10/30
+- Added project content
+- CSS styling
