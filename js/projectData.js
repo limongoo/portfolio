@@ -4,7 +4,7 @@ var data = [
 {
     image:  'img/3dhouse.jpg',
     title:  'concept portfolio',
-    link:   'http://ivanlimongan.com/',
+    link:   'https://limongoo.github.io/201project/',
     class:  'retro',
     tag:    '<span class="tags">javascript</span>  <span class="tags">ux</span> <span class="tags">design</span> <span class="tags">html</span> <span class="tags">css</span>'
 },
