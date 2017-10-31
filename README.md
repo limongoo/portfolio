@@ -88,3 +88,7 @@ Live Repository:
 #### 10/30
 - Added project content
 - CSS styling
+
+#### 10/31
+- About content add
+- CSS styling
