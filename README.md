@@ -92,3 +92,5 @@ Live Repository:
 #### 10/31
 - About content add
 - CSS styling
+- Add images for project items
+- Added second project container at bottom or info page
