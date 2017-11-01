@@ -232,6 +232,7 @@
     max-width: 90%;
     background-position: center center;
     background-blend-mode: difference;
+    margin: -600px 0 0;
 }
 
 .flex2 {
