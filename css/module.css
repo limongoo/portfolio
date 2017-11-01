@@ -226,6 +226,14 @@
     max-width: 800px;
 }
 
+.backImg {
+    opacity: 0.05;
+    position: absolute;
+    max-width: 90%;
+    background-position: center center;
+    background-blend-mode: difference;
+}
+
 .flex2 {
     flex: 1 0 50%;
 }
