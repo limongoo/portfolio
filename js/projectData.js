@@ -9,7 +9,7 @@ var data = [
         tag:    '<span class="tags">javascript</span>  <span class="tags">ux</span> <span class="tags">design</span> <span class="tags">html</span> <span class="tags">css</span>'
     },
     {
-        image:  'img/thumb/3dhouse.jpg',
+        image:  'img/thumb/mpm.jpg',
         title:  'MPowered media',
         link:   'http://mpoweredmedia.com',
         class:  'retro',
