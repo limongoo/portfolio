@@ -65,7 +65,7 @@ a:hover {
 
 .line {
     height: 0;
-    width: 3rem;
+    width: 4rem;
     display: inline-block;
     vertical-align: middle;
     border-top: .1rem solid;
@@ -79,6 +79,18 @@ a:hover {
     clear: both;
     padding: 0 0 5%;
 }
+
+hr {
+    border-top: .1rem solid;
+    height: 0;
+    max-width: 20%;
+    text-align: center;
+    margin: 30% auto;
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: 0.6;
+  }
 
 
 /*  -------- Media Queries ------- */

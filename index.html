@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/base.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700" rel="stylesheet">
 
         <!-- Handlebars JS -->
         <script id="project-template" type="text/x-handlebars-template">
@@ -16,7 +16,7 @@
                         <a href="{{link}}" target="_blank">
                             <img id="imgShow" src="{{image}}" class="image">
                             <div class="overlay {{class}}">
-                                <div class="overlayText">view</div>
+                                <div class="overlayText">view<br><br>—<br><br><span class="overlayTitle">{{title}}</span></div>
                             </div>
                         </a>
                     </div>
@@ -140,7 +140,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="clear"></div>
+            <hr>>
             <div id="projectContainer1"></div>
         </section>
 
