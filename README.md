@@ -100,3 +100,4 @@ Live Repository:
 
 #### 11/2
 - Implementing AJAX data
+- Moving project data to json file
