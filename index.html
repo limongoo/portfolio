@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/base.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700" rel="stylesheet">
 
         <!-- Handlebars JS -->
         <script id="project-template" type="text/x-handlebars-template">
@@ -16,11 +16,11 @@
                         <a href="{{link}}" target="_blank">
                             <img id="imgShow" src="{{image}}" class="image">
                             <div class="overlay {{class}}">
-                                <div class="overlayText">view</div>
+                                <div class="overlayText">view<br><br>✖<br><br><span class="overlayTitle">{{title}}</span></div>
                             </div>
                         </a>
                     </div>
-                    <a href="{{link}}" id="projectTitle" target="_blank">{{title}}</a><br>
+                    <a href="{{link}}" id="projectTitle" target="_blank">{{title}}</a><br><br>
                     <span id="projectTag">{{{tag}}}</span>
                 </div>
         </script>
@@ -33,7 +33,7 @@
                 <nav id="navigation"> 
                     <ul id="menu">
                         <li class="tab" data-content="main"><a href="#" target="_self">projects</a></li>
-                        <li class="tab" data-content="about"><a href="#" target="_self">bio</a></li>
+                        <li class="tab" data-content="about"><a href="#" target="_self">info</a></li>
                     </ul>
                     <div id="social">
                         <a class="soc" href="https://github.com/limongoo" target="_blank"><img src="img/github.png"></a>
@@ -69,7 +69,7 @@
         <!-- About -->
         <section id="about" class="content">
             <div id="container">
-                <p><span class="line"></span>bio</p>
+                <p><span class="line"></span>info</p>
             </div>
             <div id="container">
                 <img class="pullRight aOne" src="img/howe-use.jpg">
@@ -77,24 +77,74 @@
             </div>
             <div class="clear"></div>
             <div id="container" class="flex">
-                <div>
-                    <p>profile</p>
+                <div class="flex2">
+                    <p><span class="line"></span>bio</p>
                 </div>
-                <div>
-                    <p class="textRight">I've always been interested in web design since high school. My first major website project was working on the Parkrose High School website. My background is biology and continued my education in graphic / web design and my work experience have allowed me to have a strong foundation in user experience design and front-end development.</p>
-                    <p class="textRight">I currently work at MPowered Media and M Realty as the Brand Lead and Product Developer. My main duties includes Art Direction, Branding, Product Development, UX/UI Design, Front-End Development &amp; Marketing.</p>
-                    <p class="textRight">Working professionaly have led me to really appreciate user-center design and the process that goes into creating an experience that is meaningful between people and technology. I believe that this can be achieved through client input/feedback, collaboration, smart design and funtional solutions. This is what really excites me about UX &amp; Front-End development.</p>
-                    <p class="textRight">Things I like to do outside of work include spending time with my wife and daughter. You can usually find me eating at some food cart or restaurant in my never ending quest to try all the food places in Portland, I'm always on the lookout for the latest food, let me know if you know any good places. In my spare time I play bass guitar, dabble in photography and watch Wes Anderson/Wes Anderson type movies.</p>
+                <div class="flex2">
+                    <p>I've always been interested in web design since high school. My first major website project was working on the Parkrose High School website. My background is biology and continued my education in graphic / web design and my work experience have allowed me to have a strong foundation in user experience design and front-end development.</p>
+                    <p>I currently work at MPowered Media and M Realty as the Brand Lead and Product Developer. My main duties includes Art Direction, Branding, Product Development, UX/UI Design, Front-End Development &amp; Marketing.</p>
+                    <p>Working professionaly have led me to really appreciate user-centered design and the process that goes into creating an experience that is meaningful between people and technology. I believe this can be achieved through client input/feedback, collaboration, smart design and funtional solutions. This is what really excites me about UX &amp; Front-End development.</p>
+                    <p>Things I like to do outside of work include spending time with my wife and daughter. You can usually find me eating at some food cart or restaurant in my forever quest to try all the food places in Portland, I'm always on the lookout for the latest food, let me know if you know any good places. In my spare time I play bass guitar, dabble in photography and watch Wes Anderson/Wes Anderson type movies.</p>
+                    <p><span class="line"></span></p>
                 </div>
             </div>
             <div class="clear"></div>
-            <div id="container">
-                    <h2 class="textCenter">I focus on user-centered and functional design/development</h2>
+            <div id="container">  
+                <div><img class="backImg" src="../img/hive-ivanlimongan.png"></div> 
+                <h2 class="textCenter">I focus on user-centered and functional design/development</h2>
             </div>
-                
+            <div class="clear"></div>
+            <div id="container" class="flex">
+                <div class="flex4">
+                    <p><span class="line"></span>focus</p>
+                </div>
+                <div class="flex4">
+                    <p>Web</p>
+                    <ul>
+                        <li>— Front-End Development</li>
+                        <li>— User Experience</li>
+                        <li>— Javascript / JQuery</li>
+                        <li>— HTML5 / CSS3</li>
+                        <li>— Mobile / Responsive Design</li>
+                        <li>— Interactive Design</li>
+                        <li>— Wireframing / Prototyping</li>
+                        <li>— Strategy</li>
+                        <li>— Bootstrap / UI Kit / Foundation</li>
+                        <li>— Wordpress / Squarespace</li>
+                    </ul>
+                </div>
+                <div class="flex4">
+                    <p>Design</p>
+                    <ul>
+                        <li>— Digitial / Visual / Print</li>
+                        <li>— UI Design</li>
+                        <li>— Logo / Brand Development</li>
+                        <li>— Art Direction / Strategy</li>
+                        <li>— HTML5 / CSS3</li>
+                        <li>— Illustration</li>
+                        <li>— Advertising / Marketing</li>
+                        <li>— Product Development</li>
+                    </ul>
+                </div>
+                <div class="flex4">
+                    <p>Technical</p>
+                    <ul>
+                        <li>— GitHub/ Terminal / Version Control</li>
+                        <li>— Google Developer Tools</li>
+                        <li>— VS Code / Atom</li>
+                        <li>— Sketch / Illustrator</li>
+                        <li>— InDesign / Illustrator</li>
+                        <li>— Photoshop / Lightroom</li>
+                        <li>— Final Cut Pro</li>
+                        <li>— Apple &amp; Windows Environment</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div id="projectContainer1"></div>
         </section>
 
-        <script src="js/projectData.js"></script>
-        <script src="js/app.js"></script>
+        <script type="text/javascript" src="js/projectData.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
     </body>
 </html>

@@ -54,6 +54,12 @@
     flex-wrap: wrap;
 }
 
+#projectContainer1 {
+    margin: 4% 5% 4% 4%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #projectItem {
     flex: 1 0 350px;
     margin-left: 15px;
@@ -89,7 +95,7 @@
 
 .image {
     display: block;
-    width: 150%;
+    width: 100%;
     height: auto;
     position: relative;
 }
@@ -100,7 +106,7 @@
 }
 
 .container:hover .overlay {
-    opacity: 0.8;
+    opacity: 0.85;
 }
 
 .overlayText {
@@ -111,10 +117,18 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     font-weight: 300;
-    font-size: 20px;
+    font-size: 14px;
     letter-spacing: 3px;
-    padding-bottom: 5px;
     transition: 0.3s ease all;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.overlayTitle {
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 1.3;
+    text-transform: capitalize;
 }
 
 #imgShow {
@@ -126,7 +140,7 @@
 }
  
 #projectTitle {
-    text-transform: lowercase;
+    text-transform: capitalize;
     transition: 0.3s ease all;
 }
 
@@ -136,9 +150,9 @@
 }
 
 #projectTag {
-    text-transform: lowercase;
+    text-transform: uppercase;
     transition: 0.3s ease all;
-    font-size: 10px;
+    font-size: 9px;
     opacity: 0;
 }
 
@@ -149,7 +163,7 @@
 }
 
 .tags {
-    background-color: grey;
+    background-color: rgb(82, 82, 82);
     padding: 5px 10px;
     border-radius: 15px;
 }
@@ -220,6 +234,27 @@
     max-width: 800px;
 }
 
+.backImg {
+    opacity: 0.07;
+    position: absolute;
+    max-width: 90%;
+    background-position: center center;
+    background-blend-mode: difference;
+    margin: -600px 0 0;
+}
+
+.flex2 {
+    flex: 1 0 50%;
+}
+
+.flex4 {
+    flex: 1 0 24%;
+    padding: 0 1% 0 0;
+}
+
+.flex4 ul li {
+    line-height: 2;
+}
 
 /*  -------- Media Queries ------- */
 

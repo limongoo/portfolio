@@ -30,6 +30,8 @@ data.forEach(function(newPro) {
 
 projectArray.forEach(function(pro) {
     $('#projectContainer').append(pro.toHtml());
+    $('#projectContainer1').append(pro.toHtml());
+    
 });
 
 

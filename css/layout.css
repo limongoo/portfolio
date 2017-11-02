@@ -44,8 +44,9 @@ header {
 .flex {
     display: flex;
     direction: row;
-
+    /* flex-wrap: wrap; */
 }
+
 
 /*  -------- Media Queries ------- */
 
