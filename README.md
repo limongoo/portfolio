@@ -97,3 +97,6 @@ Live Repository:
 
 #### 11/1
 - CSS styling
+
+#### 11/2
+- Implementing AJAX data
