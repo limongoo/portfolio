@@ -48,7 +48,7 @@ var data = [
         title:  'gooday bali driver',
         link:   'http://www.goodaybalidriver.com/',
         class:  'retro',
-        tag:    '<span class="tags">design</span> <span class="tags">ux</span> <span class="tags">squarespace</span>',
+        tag:    '<span class="tags">design</span> <span class="tags">ux</span> <span class="tags">squarespace</span> <span class="tags">consultation</span>',
     },
     {
         image:  'img/3dhouse.jpg',
