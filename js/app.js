@@ -17,7 +17,7 @@ function Project (projectData) {
 }
 
 Project.prototype.toHtml = function() {
-    var projectFiller = Handlebars.compile($('#project-template').text()); // Compile templates
+    var projectFiller = Handlebars.compile($('#project-template').html()); // Compile templates
     $('div #projectItem').removeClass('hide');
     return projectFiller(this); // return compiled templates back to html
 };
@@ -54,7 +54,7 @@ Project.fetchData = function() {
         Project.loadAll(JSON.parse(localStorage.data));
         createPage();
     } else {
-        $.getJOSN("/js/projectData.json", function(getData) {
+        $.getJSON('/js/projectData.json', function(getData) {
             localStorage.setItem('data', JSON.stringify(getData));
             Project.loadAll(getData);
             createPage();
@@ -90,7 +90,7 @@ function TabContent() {
 
 $(document).ready(function() {
     TabContent();
-    createPage();
+    Project.fetchData();
 });
 
 console.log('end');
