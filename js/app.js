@@ -1,13 +1,10 @@
 'use strict';
 console.log('start');
 
-// JQuery Constructor
 
-// original
-// var projectArray = [];
-// new
 Project.all = [];
 
+// JQuery Constructor
 function Project (projectData) {
     this.image = projectData.image;
     this.title = projectData.title;
@@ -48,7 +45,7 @@ function createPage() {
 // });
 
 
-// fetch function
+// Fetch ajax function
 Project.fetchData = function() {
     if (localStorage.data) {
         Project.loadAll(JSON.parse(localStorage.data));
@@ -90,7 +87,6 @@ function TabContent() {
 
 $(document).ready(function() {
     TabContent();
-    Project.fetchData();
 });
 
 console.log('end');

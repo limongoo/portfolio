@@ -104,3 +104,5 @@ Live Repository:
 
 #### 11/3
 - Working on AJAX to work
+- Fixed some code on app.js and projectData.json. Ajax call works now
+- CSS cleanup
