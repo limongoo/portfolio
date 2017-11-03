@@ -2,9 +2,13 @@
 console.log('start');
 
 // JQuery Constructor
-var projectArray = [];
 
-function project (projectData) {
+// original
+// var projectArray = [];
+// new
+Project.all = [];
+
+function Project (projectData) {
     this.image = projectData.image;
     this.title = projectData.title;
     this.link = projectData.link;
@@ -12,27 +16,51 @@ function project (projectData) {
     this.tag = projectData.tag;
 }
 
-project.prototype.toHtml = function() {
-    // var $projecTemplate = $('div.hide').clone().removeClass('hide');
-    // $projecTemplate.find('#imgShow').attr('src', this.image);
-    // $projecTemplate.find('#projectTitle').text(this.title);
-    // $projecTemplate.find('#projectItem a').attr('href', this.link);    
-    // return $projecTemplate;
-
-    var projectFiller = Handlebars.compile($('#project-template').html()); // Compile templates
+Project.prototype.toHtml = function() {
+    var projectFiller = Handlebars.compile($('#project-template').text()); // Compile templates
     $('div #projectItem').removeClass('hide');
     return projectFiller(this); // return compiled templates back to html
 };
 
-data.forEach(function(newPro) {
-    projectArray.push(new project(newPro));
-});
+// new
+Project.loadAll = function(data) {
+    data.forEach(function(newPro) {
+        Project.all.push(new Project(newPro));
+    });
+};
+// original
+// data.forEach(function(newPro) {
+//     Project.all.push(new Project(newPro));
+// });
 
-projectArray.forEach(function(pro) {
-    $('#projectContainer').append(pro.toHtml());
-    $('#projectContainer1').append(pro.toHtml());
-    
-});
+
+// new
+function createPage() {
+    Project.all.forEach(function(pro) {
+        $('#projectContainer').append(pro.toHtml());
+        $('#projectContainer1').append(pro.toHtml());  
+    });
+}
+// original
+// Project.all.forEach(function(pro) {
+//     $('#projectContainer').append(pro.toHtml());
+//     $('#projectContainer1').append(pro.toHtml());  
+// });
+
+
+// fetch function
+Project.fetchData = function() {
+    if (localStorage.data) {
+        Project.loadAll(JSON.parse(localStorage.data));
+        createPage();
+    } else {
+        $.getJOSN("/js/projectData.json", function(getData) {
+            localStorage.setItem('data', JSON.stringify(getData));
+            Project.loadAll(getData);
+            createPage();
+        });
+    }
+};
 
 
 // Show menu on mobile and tablet
@@ -62,6 +90,7 @@ function TabContent() {
 
 $(document).ready(function() {
     TabContent();
+    createPage();
 });
 
 console.log('end');
