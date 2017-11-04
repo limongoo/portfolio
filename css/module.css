@@ -63,14 +63,11 @@
 #projectItem {
     flex: 1 0 350px;
     margin-left: 15px;
-	/* margin-bottom: 50px; */
 }
 
 #projectBox {
     max-height: 100%;
     max-width: 100%;
-    /* height: 300px;
-    width: 300px; */
     overflow: hidden;
     transition: 0.3s ease all;
     margin-bottom: 10px;
@@ -222,8 +219,6 @@
 .blend {
     mix-blend-mode: difference;
     position: absolute;
-    /* top: 50%;
-    transform: translateY(-85%); */
 }
 
 .heroText {
@@ -286,7 +281,7 @@
 
     #navigation {
         padding: 0px;
-        background-image: linear-gradient(to right, #434343 0%, black 100%);
+        background-image: linear-gradient(to right, #212121 0%, black 100%);
         position: fixed;
         top: 0px !important;
         right: 0px !important;
@@ -332,7 +327,7 @@
 
     #navigation {
         padding-right: 0px;
-        background-image: linear-gradient(to right, #434343 0%, black 100%);
+        background-image: linear-gradient(to right, #212121 0%, black 100%);
         position: fixed;
         top: 0px !important;
         right: 0px !important;

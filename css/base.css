@@ -6,8 +6,8 @@
 html {font-size: 1em;}
 
 body {
-    background-image: linear-gradient(to right, #434343 0%, black 100%);    
-    background-color: black;
+    /* background-image: linear-gradient(to right, #434343 0%, black 100%);     */
+    background-color: #212121;
     font-family: 'Work Sans', cursive;
     font-weight: 500;
     color: white;

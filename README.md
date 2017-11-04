@@ -97,3 +97,13 @@ Live Repository:
 
 #### 11/1
 - CSS styling
+
+#### 11/2
+- Implementing AJAX data
+- Moving project data to json file
+
+#### 11/3
+- Working on AJAX to work
+- Fixed some code on app.js and projectData.json. Ajax call works now
+- CSS/JS cleanup
+- File re-structuring
