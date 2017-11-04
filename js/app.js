@@ -51,7 +51,7 @@ Project.fetchData = function() {
         Project.loadAll(JSON.parse(localStorage.data));
         createPage();
     } else {
-        $.getJSON('/js/projectData.json', function(getData) {
+        $.getJSON('/data/projectData.json', function(getData) {
             localStorage.setItem('data', JSON.stringify(getData));
             Project.loadAll(getData);
             createPage();
@@ -60,33 +60,6 @@ Project.fetchData = function() {
 };
 
 
-// Show menu on mobile and tablet
-$('#showMenu').click(function() {
-    var $menu = $('#navigation');
-    if($menu.is(':hidden')){
-        $menu.fadeIn(500);
-        $(this).text('close');
-    }
-    else {
-    $menu.fadeOut(500);
-    $('#showMenu').text('menu');
-    }
-});
 
-// Tab menu function
-function TabContent() {
-    $('#menu li').on('click', function() {
-        var selectTab = $(this).data('content');
-        $('.content').hide();
-        $('#' + selectTab).fadeIn(500);
-        $('#navigation').fadeOut(500);
-        $('#showMenu').text('menu');
-    });
-    $('#menu .tab:first').click(); 
-}
-
-$(document).ready(function() {
-    TabContent();
-});
 
 console.log('end');
