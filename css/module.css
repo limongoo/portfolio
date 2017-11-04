@@ -281,7 +281,7 @@
 
     #navigation {
         padding: 0px;
-        background-image: linear-gradient(to right, #434343 0%, black 100%);
+        background-image: linear-gradient(to right, #212121 0%, black 100%);
         position: fixed;
         top: 0px !important;
         right: 0px !important;
@@ -327,7 +327,7 @@
 
     #navigation {
         padding-right: 0px;
-        background-image: linear-gradient(to right, #434343 0%, black 100%);
+        background-image: linear-gradient(to right, #212121 0%, black 100%);
         position: fixed;
         top: 0px !important;
         right: 0px !important;
