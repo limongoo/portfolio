@@ -107,3 +107,7 @@ Live Repository:
 - Fixed some code on app.js and projectData.json. Ajax call works now
 - CSS/JS cleanup
 - File re-structuring
+
+#### 11/5
+- Set up node js with express
+- Node server working
