@@ -1,0 +1,23 @@
+{
+  "name": "301portfolio",
+  "version": "1.0.0",
+  "description": "Ivan's 301 Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limongoo/301portfolio.git"
+  },
+  "author": "Ivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/limongoo/301portfolio/issues"
+  },
+  "homepage": "https://github.com/limongoo/301portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
