@@ -14,9 +14,15 @@ function Project (projectData) {
 }
 
 Project.prototype.toHtml = function() {
+    // Project Grid
     var projectFiller = Handlebars.compile($('#project-template').html()); // Compile templates
-    $('div #projectItem').removeClass('hide');
     return projectFiller(this); // return compiled templates back to html
+};
+
+Project.prototype.projectHTML = function() {
+    // Project Info
+    var projectInfoFiller = Handlebars.compile($('#project-info').html());
+    return projectInfoFiller(this);
 };
 
 // new
@@ -36,6 +42,7 @@ function createPage() {
     Project.all.forEach(function(pro) {
         $('#projectContainer').append(pro.toHtml());
         $('#projectContainer1').append(pro.toHtml());  
+        $('#projectOverContainer').append(pro.toHtml());
     });
 }
 // original

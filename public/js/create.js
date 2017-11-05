@@ -25,6 +25,28 @@ function TabContent() {
     $('#menu .tab:first').click(); 
 }
 
+// Show project info function. showProject from project template handlebars
+$('.showProject').on('click', function() {
+    var $projectOverlay = $('#projectOverlay');
+    $projectOverlay.show().fadeIn(500);
+    
+});
+
+
+
+
+// function showInfo() {
+//     $('#projectBox a').on('click', function() {
+//         var selectProject = $(this).data('info');
+//         $('.showProject').hide();
+//         $('#' + )
+//     });
+// }
+
+
+
+
+
 $(document).ready(function() {
     TabContent();
 });

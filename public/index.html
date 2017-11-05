@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang="en">
     <head>
-        <meta charset=utf-8>
+        <meta charset="utf-8">
         <title>Ivan Limongan - 301 Portfolio Website</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/base.css">
@@ -59,7 +59,7 @@
             </div>
             <div class="clear"></div>
             <div id="container">  
-                <div><img class="backImg" src="../img/hive-ivanlimongan.png"></div> 
+                <div><img class="backImg" src="img/hive-ivanlimongan.png"></div> 
                 <h2 class="textCenter">I focus on user-centered and functional design/development</h2>
             </div>
             <div class="clear"></div>
@@ -113,20 +113,28 @@
             <div id="projectContainer1"></div>
         </section>
 
+        <div class="projectOverContainer"></div>
+
+        
+
         <!-- Handlebars JS -->
         <script id="project-template" type="text/x-handlebars-template">
             <div id="projectItem">
                 <div id="projectBox" class="container">
-                    <a href="{{link}}" target="_blank">
+                    <a href="#" class="showProject">
                         <img id="imgShow" src="{{image}}" class="image">
                         <div class="overlay {{class}}">
                             <div class="overlayText">view<br><br>✖<br><br><span class="overlayTitle">{{title}}</span></div>
                         </div>
                     </a>
                 </div>
-                <a href="{{link}}" id="projectTitle" target="_blank">{{title}}</a><br><br>
+                <a href="#" id="projectTitle" class="showProject">{{title}}</a><br><br>
                 <span id="projectTag">{{{tag}}}</span>
             </div>
+        </script>
+
+        <script id="project-info" type="text/x-handlebars-template">
+            <div class="projectOverlay">text</div>
         </script>
 
         <!-- <script type="text/javascript" src="data/projectData.js"></script> -->

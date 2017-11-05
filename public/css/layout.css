@@ -16,6 +16,11 @@ header {
     padding: 0;
 }
 
+#projectContainer {
+    margin: 0;
+    padding: 0;
+}
+
 .pullLeft {
     float: left;
 }
