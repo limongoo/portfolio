@@ -58,7 +58,7 @@ Project.fetchData = function() {
         Project.loadAll(JSON.parse(localStorage.data));
         createPage();
     } else {
-        $.getJSON('/data/projectData.json', function(getData) {
+        $.getJSON('data/projectData.json', function(getData) {
             localStorage.setItem('data', JSON.stringify(getData));
             Project.loadAll(getData);
             createPage();
