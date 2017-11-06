@@ -1,17 +1,19 @@
 'use strict';
 
 // Show menu on mobile and tablet
-$('#showMenu').click(function() {
-    var $menu = $('#navigation');
-    if($menu.is(':hidden')){
-        $menu.fadeIn(500);
-        $(this).text('close');
-    }
-    else {
-    $menu.fadeOut(500);
-    $('#showMenu').text('menu');
-    }
-});
+function mainMenu() {
+    $('#showMenu').click(function() {
+        var $menu = $('#navigation');
+        if($menu.is(':hidden')){
+            $menu.fadeIn(500);
+            $(this).text('close');
+        }
+        else {
+        $menu.fadeOut(500);
+        $('#showMenu').text('menu');
+        }
+    });
+}
 
 // Tab menu function
 function TabContent() {
@@ -26,12 +28,22 @@ function TabContent() {
 }
 
 // Show project info function. showProject from project template handlebars
-$('.showProject').on('click', function() {
-    var $projectOverlay = $('#projectOverlay');
-    $projectOverlay.show().fadeIn(500);
-    
-});
 
+function overlayMenu() {
+    $('.showProject').click(function() {
+        var $projectOverlay = $('#projectOverlay');
+        if($projectOverlay.is(':hidden')) {
+            $projectOverlay.fadeIn(300);
+        }
+    });
+}
+
+function closeOverlayMenu() {
+    var $projectOverlay = $('#projectOverlay');
+    $('#closeProject').click(function() {
+        $projectOverlay.fadeOut(500); 
+    });
+}
 
 
 
@@ -49,4 +61,7 @@ $('.showProject').on('click', function() {
 
 $(document).ready(function() {
     TabContent();
+    mainMenu();
+    overlayMenu();
+    closeOverlayMenu();
 });

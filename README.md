@@ -112,3 +112,4 @@ Live Repository:
 - Set up node js with express
 - Node server working
 - Set up handlebars project info template
+- Show/close project overlay working
