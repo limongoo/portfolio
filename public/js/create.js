@@ -33,7 +33,7 @@ function overlayMenu() {
     $('.showProject').click(function() {
         var $projectOverlay = $('#projectOverlay');
         if($projectOverlay.is(':hidden')) {
-            $projectOverlay.fadeIn(300);
+            $projectOverlay.fadeIn(200);
         }
     });
 }

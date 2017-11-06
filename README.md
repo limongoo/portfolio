@@ -113,3 +113,6 @@ Live Repository:
 - Node server working
 - Set up handlebars project info template
 - Show/close project overlay working
+
+#### 11/6 
+- Project overlay feature
