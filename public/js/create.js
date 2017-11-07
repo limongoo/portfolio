@@ -30,11 +30,12 @@ function TabContent() {
 // Show project info function. showProject from project template handlebars
 
 function overlayMenu() {
-    $('.showProject').click(function() {
+    $('.showProject').click(function(event) {
         var $projectOverlay = $('#projectOverlay');
         if($projectOverlay.is(':hidden')) {
             $projectOverlay.fadeIn(200);
         }
+        event.preventDefault();
     });
 }
 
