@@ -34,7 +34,8 @@ function overlayMenu() {
         var $projectOverlay = $('#projectOverlay');
         if($projectOverlay.is(':hidden')) {
             $projectOverlay.fadeIn(200);
-        }
+            $('#showMenu').hide();
+        }   
         event.preventDefault();
     });
 }
@@ -43,6 +44,7 @@ function closeOverlayMenu() {
     var $projectOverlay = $('#projectOverlay');
     $('#closeProject').click(function() {
         $projectOverlay.fadeOut(500); 
+        $('#showMenu').show();
     });
 }
 

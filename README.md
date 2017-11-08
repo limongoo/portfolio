@@ -116,3 +116,8 @@ Live Repository:
 
 #### 11/6 
 - Project overlay feature
+
+#### 11/7
+- Project overlay working, pulling correct data not working yet
+- CSS styling
+- Add data to projectData.json

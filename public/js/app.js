@@ -19,7 +19,7 @@ Project.prototype.toHtml = function() {
     return projectFiller(this); // return compiled templates back to html
 };
 
-Project.prototype.projectHTML = function() {
+Project.prototype.projectHtml = function() {
     // Project Info
     var projectInfoFiller = Handlebars.compile($('#project-info').html());
     return projectInfoFiller(this);
@@ -42,7 +42,7 @@ function createPage() {
     Project.all.forEach(function(pro) {
         $('#projectContainer').append(pro.toHtml());
         $('#projectContainer1').append(pro.toHtml());  
-        $('#projectOverContainer').append(pro.toHtml());
+        $('#projectOverContainer').append(pro.projectHtml());
     });
 }
 // original

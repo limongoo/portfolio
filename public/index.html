@@ -8,6 +8,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
     </head>
     <body>
         <header>
@@ -33,7 +35,7 @@
                 <p><span class="line"></span>projects</p>
             </div>
             <div id="projectContainer"></div>
-            <div class="projectOverContainer"></div>
+            <div id="projectOverContainer"></div>
         </section>
 
         <!-- About -->
@@ -116,29 +118,23 @@
 
        
 
-        <div id="projectOverlay">
+        <!-- <div id="projectOverlay">
             <div id="fullContainer">
-                <div id="container">
+                <div id="container" class="marginTop">
                     <div class="pullRight"><a href="#" id="closeProject">close</a></div>
                 </div>
-                <div id="container">
-                    <img class="pullRight proImg" src="img/thumb/donut.jpg">
-                    <p><span class="line"></span></p>
-                    <h2 class="blend heroText">Title of project here</h2> 
-                </div>
-                <div class="clear"></div>
                 <div id="container" class="flex">
-                    <div class="flex4">
-                        <p>link</p>
+                    <div class="flex2"><img class="proImg" src="img/thumb/donut.jpg"></div>
+                    <div class="flex2">    
+                        <p>—</p>
+                        <h2 class="">Title of project here</h2>
+                        <div class="bottomMargin"><a href="" id="linkProject">View Live Project</a></div>
+                        <div id="projectTagInfo" class="tagMargin"><span class="tags">javascript</span>  <span class="tags">ux</span> <span class="tags">design</span> <span class="tags">html</span> <span class="tags">css</span></div>
+                        <div><p>Dummy text</p></div>
                     </div>
-                    <div class="flex4">
-                        <p>body</p>
-                    </div>
-                    <div class="flex4">
-                        <p>tag</p>
-                    </div>
+                </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Handlebars JS -->
         <script id="project-template" type="text/x-handlebars-template">
@@ -157,7 +153,23 @@
         </script>
 
         <script id="project-info" type="text/x-handlebars-template">
-            <div class="projectOverlay">text</div>
+            <div id="projectOverlay">
+                    <div id="fullContainer">
+                        <div id="container" class="marginTop">
+                            <div class="pullRight"><a href="#" id="closeProject">close</a></div>
+                        </div>
+                        <div id="container" class="flex">
+                            <div class="flex2"><img class="proImg" src="{{image}}"></div>
+                            <div class="flex2">    
+                                <p>—</p>
+                                <h2 class="">{{title}}</h2>
+                                <div class="bottomMargin"><a href="{{link}}" id="linkProject" target="_blank">View Live Project</a></div>
+                                <div id="projectTagInfo" class="tagMargin">{{{tag}}}</div>
+                                <div>{{{body}}}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </script>
 
         <!-- <script type="text/javascript" src="data/projectData.js"></script> -->
