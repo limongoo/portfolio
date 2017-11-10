@@ -5,7 +5,8 @@
         "link":   "https://limongoo.github.io/201project/",
         "class":  "retro",
         "tag":    "<span class='tags'>javascript</span>  <span class='tags'>ux</span> <span class='tags'>design</span> <span class='tags'>html</span> <span class='tags'>css</span>",
-        "body":   "<p>This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image.</p>"
+        "id":     "concept",
+        "body":   "This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image."
     },
     {
         "image":  "img/thumb/mpm.jpg",
@@ -13,7 +14,8 @@
         "link":   "http://mpoweredmedia.com",
         "class":  "retro",
         "tag":    "<span class='tags'>design</span> <span class='tags'>ux</span> <span class='tags'>html</span> <span class='tags'>css</span> <span class='tags'>wordpress</span>",
-        "body":   "<p>This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image.</p>"
+        "id":     "mpowered",        
+        "body":   "This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image."
     },
     {
         "image":  "img/thumb/mrealty.jpg",
@@ -21,7 +23,8 @@
         "link":   "http://mrealtypdx.com/",
         "class":  "retro",
         "tag":    "<span class='tags'>design</span> <span class='tags'>ux</span> <span class='tags'>html</span> <span class='tags'>css</span> <span class='tags'>wordpress</span>",
-        "body":   "<p>This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image.</p>"
+        "id":     "m",        
+        "body":   "This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image."
     },
     {
         "image":  "img/thumb/pdx.jpg",
@@ -29,7 +32,8 @@
         "link":   "http://pdx-neighbors.github.io/pdx-neighbors/",
         "class":  "retro",
         "tag":    "<span class='tags'>javascript</span> <span class='tags'>html</span> <span class='tags'>css</span> <span class='tags'>design</span>",
-        "body":   "<p>This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image.</p>"
+        "id":     "pdx",
+        "body":   "This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image."
     },
     {
         "image":  "img/thumb/donut.jpg",
@@ -37,7 +41,8 @@
         "link":   "http://limongoo.github.io/cookie-stand/index.html",
         "class":  "retro",
         "tag":    "<span class='tags'>javascript</span> <span class='tags'>html</span> <span class='tags'>css</span> <span class='tags'>design</span>",
-        "body":   "<p>This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image.</p>"
+        "id":     "donut",        
+        "body":   "This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image."
     },
     {
         "image":  "img/thumb/market.jpg",
@@ -45,7 +50,8 @@
         "link":   "http://limongoo.github.io/market-analysis-app/",
         "class":  "retro",
         "tag":    "<span class='tags'>javascript</span> <span class='tags'>html</span> <span class='tags'>css</span> <span class='tags'>design</span>",
-        "body":   "<p>This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image.</p>"
+        "id":     "market",        
+        "body":   "This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image."
     },
     {
         "image":  "img/thumb/bali.jpg",
@@ -53,7 +59,8 @@
         "link":   "http://www.goodaybalidriver.com/",
         "class":  "retro",
         "tag":    "<span class='tags'>design</span> <span class='tags'>ux</span> <span class='tags'>squarespace</span> <span class='tags'>consultation</span>",
-        "body":   "<p>This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image.</p>"
+        "id":     "gooday",        
+        "body":   "This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image."
     },
     {
         "image":  "#",
@@ -61,6 +68,7 @@
         "link":   "#",
         "class":  "retro",
         "tag":    "",
+        "id":     "",        
         "body":   ""
     },
     {
@@ -69,6 +77,7 @@
         "link":   "#",
         "class":  "retro",
         "tag":    "",
+        "id":     "",        
         "body":   ""
     }
 ]

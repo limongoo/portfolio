@@ -121,3 +121,7 @@ Live Repository:
 - Project overlay working, pulling correct data not working yet
 - CSS styling
 - Add data to projectData.json
+
+#### 11/9
+- Handlebars ID to pull correct project
+- CSS styling

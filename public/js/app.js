@@ -11,6 +11,8 @@ function Project (projectData) {
     this.link = projectData.link;
     this.class = projectData.class;
     this.tag = projectData.tag;
+    this.id = projectData.id;
+    this.body = projectData.body;
 }
 
 Project.prototype.toHtml = function() {

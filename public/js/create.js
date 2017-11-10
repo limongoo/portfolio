@@ -32,8 +32,9 @@ function TabContent() {
 function overlayMenu() {
     $('.showProject').click(function(event) {
         var $projectOverlay = $('#projectOverlay');
+        var selectID = $(this).data('id');
         if($projectOverlay.is(':hidden')) {
-            $projectOverlay.fadeIn(200);
+            $('#' + selectID).fadeIn(200);
             $('#showMenu').hide();
         }   
         event.preventDefault();
@@ -42,8 +43,9 @@ function overlayMenu() {
 
 function closeOverlayMenu() {
     var $projectOverlay = $('#projectOverlay');
+    var selectID = $(this).data('id');
     $('#closeProject').click(function() {
-        $projectOverlay.fadeOut(500); 
+        $('#' + selectID).fadeOut(500); 
         $('#showMenu').show();
     });
 }

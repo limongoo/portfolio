@@ -140,19 +140,20 @@
         <script id="project-template" type="text/x-handlebars-template">
             <div id="projectItem">
                 <div id="projectBox" class="container">
-                    <a href="#" class="showProject">
+                    <a href="#" data-id="{{id}}" class="showProject">
                         <img id="imgShow" src="{{image}}" class="image">
                         <div class="overlay {{class}}">
                             <div class="overlayText">view<br><br>✖<br><br><span class="overlayTitle">{{title}}</span></div>
                         </div>
                     </a>
                 </div>
-                <a href="#" id="projectTitle" class="showProject">{{title}}</a><br><br>
+                <a href="#" data-id="{{id}}" id="projectTitle" class="showProject">{{title}}</a><br><br>
                 <span id="projectTag">{{{tag}}}</span>
             </div>
         </script>
 
         <script id="project-info" type="text/x-handlebars-template">
+            <div id="{{id}}">
             <div id="projectOverlay">
                     <div id="fullContainer">
                         <div id="container" class="marginTop">
@@ -165,11 +166,12 @@
                                 <h2 class="">{{title}}</h2>
                                 <div class="bottomMargin"><a href="{{link}}" id="linkProject" target="_blank">View Live Project</a></div>
                                 <div id="projectTagInfo" class="tagMargin">{{{tag}}}</div>
-                                <div>{{{body}}}</div>
+                                <div><p>{{body}}</p></div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </script>
 
         <!-- <script type="text/javascript" src="data/projectData.js"></script> -->
