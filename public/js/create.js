@@ -31,7 +31,7 @@ function TabContent() {
 
 function overlayMenu() {
     $('.showProject').click(function(event) {
-        var $projectOverlay = $('#projectOverlay');
+        var $projectOverlay = $('.projectOverlay');
         var selectID = $(this).data('id');
         if($projectOverlay.is(':hidden')) {
             $('#' + selectID).fadeIn(200);
