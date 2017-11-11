@@ -167,7 +167,7 @@
 
 
 /* --------- Project Info --------- */
-#projectOverlay {
+.projectOverlay {
     padding: 0px;
     /* background-image: linear-gradient(to right, #212121 0%, black 100%); */
     background-color: #212121;

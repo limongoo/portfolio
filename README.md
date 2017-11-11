@@ -125,3 +125,7 @@ Live Repository:
 #### 11/9
 - Handlebars ID to pull correct project
 - CSS styling
+
+#### 11/11
+- Fixed Handlebars and project overlay works now. 
+- Data update in json file. 

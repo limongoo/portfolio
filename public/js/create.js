@@ -37,19 +37,25 @@ function overlayMenu() {
             $('#' + selectID).fadeIn(200);
             // $projectOverlay.fadeIn(200);
             $('#showMenu').hide();
-        }   
+        }
+        else {
+            $('#closeProject').click(function() {
+                $('#' + selectID).fadeOut(500); 
+                $('#showMenu').show();
+            }); 
+        }
         event.preventDefault();
     });
 }
 
-function closeOverlayMenu() {
-    var $projectOverlay = $('#projectOverlay');
-    var selectID = $(this).data('id');
-    $('#closeProject').click(function() {
-        $('#' + selectID).fadeOut(500); 
-        $('#showMenu').show();
-    });
-}
+// function closeOverlayMenu() {
+//     var $projectOverlay = $('#projectOverlay');
+//     var selectID = $(this).data('id');
+//     $('#closeProject').click(function() {
+//         $('#' + selectID).fadeOut(500); 
+//         $('#showMenu').show();
+//     });
+// }
 
 
 
@@ -69,5 +75,5 @@ $(document).ready(function() {
     TabContent();
     mainMenu();
     overlayMenu();
-    closeOverlayMenu();
+    // closeOverlayMenu();
 });
