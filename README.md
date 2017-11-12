@@ -129,3 +129,4 @@ Live Repository:
 #### 11/11
 - Fixed Handlebars and project overlay works now. 
 - Data update in json file. 
+- CSS styling

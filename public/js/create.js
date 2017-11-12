@@ -36,11 +36,13 @@ function overlayMenu() {
         if($projectOverlay.is(':hidden')) {
             $('#' + selectID).fadeIn(200);
             // $projectOverlay.fadeIn(200);
+            // $('.proImg').delay(2000).fadeIn(500);
             $('#showMenu').hide();
         }
         else {
             $('#closeProject').click(function() {
                 $('#' + selectID).fadeOut(500); 
+                // $('.projectOverlay').fadeOut(500); 
                 $('#showMenu').show();
             }); 
         }
