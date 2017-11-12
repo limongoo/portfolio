@@ -41,8 +41,9 @@ function overlayMenu() {
         }
         else {
             $('#closeProject').click(function() {
+                // $('#' + selectID).fadeOut(500); 
+                console.log(selectID);
                 $('#' + selectID).fadeOut(500); 
-                // $('.projectOverlay').fadeOut(500); 
                 $('#showMenu').show();
             }); 
         }
