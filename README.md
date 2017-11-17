@@ -130,3 +130,6 @@ Live Repository:
 - Fixed Handlebars and project overlay works now. 
 - Data update in json file. 
 - CSS styling
+
+#### 11/16 
+- Fixed project info modal open/close

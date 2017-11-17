@@ -28,27 +28,25 @@ function TabContent() {
 }
 
 // Show project info function. showProject from project template handlebars
-
 function overlayMenu() {
-    $('.showProject').click(function(event) {
-        var $projectOverlay = $('.projectOverlay');
+    $('.showProject').on('click', function(event) {
+        event.preventDefault();
+
         var selectID = $(this).data('id');
-        if($projectOverlay.is(':hidden')) {
+
+        if($('.projectOverlay').is(':hidden')) {
             $('#' + selectID).fadeIn(200);
             // $projectOverlay.fadeIn(200);
             // $('.proImg').delay(2000).fadeIn(500);
             $('#showMenu').hide();
         }
-        else {
-            $('#closeProject').click(function() {
-                // $('#' + selectID).fadeOut(500); 
-                console.log(selectID);
-                $('#' + selectID).fadeOut(500); 
-                $('#showMenu').show();
-            }); 
-        }
-        event.preventDefault();
     });
+    $('.projectOverlay #closeProject').on('click', function() {
+        event.preventDefault();
+
+        $(this).closest('.projectOverlay').fadeOut(500);
+        $('#showMenu').show();
+    }); 
 }
 
 // function closeOverlayMenu() {
