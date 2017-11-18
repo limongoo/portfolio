@@ -60,6 +60,12 @@ header {
     #container {
         margin: 10% 5%;
     }
+
+    .flex {
+        display: block;
+        /* direction: column; */
+        /* flex-wrap: wrap; */
+    }
 }
 
 /* Tablet */
