@@ -133,3 +133,6 @@ Live Repository:
 
 #### 11/16 
 - Fixed project info modal open/close
+
+#### 11/17
+- CSS styling
