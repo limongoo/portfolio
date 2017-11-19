@@ -64,13 +64,17 @@ header {
     .flex {
         display: block;
         /* direction: column; */
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
     }
 }
 
 /* Tablet */
 @media only screen and (max-width: 1280px) and (min-width: 653px) {
-
+    .flex {
+        display: flex;
+        direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 /* Desktop */
