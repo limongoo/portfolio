@@ -15,8 +15,8 @@
                 <div id="ham"><a id="showMenu" href="#">menu</a></div>
                 <nav id="navigation"> 
                     <ul id="menu">
-                        <li class="tab" data-content="main"><a href="#" target="_self">projects</a></li>
-                        <li class="tab" data-content="about"><a href="#" target="_self">info</a></li>
+                        <li class="tab" data-content="main"><a href="/" target="_self">projects</a></li>
+                        <li class="tab" data-content="about"><a href="/about" target="_self">info</a></li>
                     </ul>
                     <div id="social">
                         <a class="soc" href="https://github.com/limongoo" target="_blank"><img src="img/github.png"></a>
@@ -156,10 +156,13 @@
         </script>
 
         <!-- <script type="text/javascript" src="data/projectData.js"></script> -->
-        <script src="vendor/scripts/page.js"></script>
-        <script src="data/projectData.json"></script>
+        <script type="text/javascript" src="vendors/scripts/page.js"></script>
+        <script type="text/javascript" src="data/projectData.json"></script>
         <script type="text/javascript" src="scripts/view/create.js"></script>
         <script type="text/javascript" src="scripts/view/app.js"></script>
+        <script type="text/javascript" src="scripts/controllers/articleController.js"></script>
+        <script type="text/javascript" src="scripts/controllers/aboutController.js"></script>
+        <script type="text/javascript" src="scripts/controllers/routes.js"></script>
         <script>
             Project.fetchData();
         </script>
