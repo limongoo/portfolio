@@ -136,3 +136,6 @@ Live Repository:
 
 #### 11/17
 - CSS styling
+
+#### 11/20
+- Implementing Page JS
