@@ -11,12 +11,20 @@ function Project (projectData) {
     this.link = projectData.link;
     this.class = projectData.class;
     this.tag = projectData.tag;
+    this.id = projectData.id;
+    this.body = projectData.body;
 }
 
 Project.prototype.toHtml = function() {
+    // Project Grid
     var projectFiller = Handlebars.compile($('#project-template').html()); // Compile templates
-    $('div #projectItem').removeClass('hide');
     return projectFiller(this); // return compiled templates back to html
+};
+
+Project.prototype.projectHtml = function() {
+    // Project Info
+    var projectInfoFiller = Handlebars.compile($('#project-info').html());
+    return projectInfoFiller(this);
 };
 
 // new
@@ -36,6 +44,7 @@ function createPage() {
     Project.all.forEach(function(pro) {
         $('#projectContainer').append(pro.toHtml());
         $('#projectContainer1').append(pro.toHtml());  
+        $('#projectOverContainer').append(pro.projectHtml());
     });
 }
 // original
@@ -51,7 +60,7 @@ Project.fetchData = function() {
         Project.loadAll(JSON.parse(localStorage.data));
         createPage();
     } else {
-        $.getJSON('/data/projectData.json', function(getData) {
+        $.getJSON('data/projectData.json', function(getData) {
             localStorage.setItem('data', JSON.stringify(getData));
             Project.loadAll(getData);
             createPage();

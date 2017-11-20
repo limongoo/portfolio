@@ -16,6 +16,11 @@ header {
     padding: 0;
 }
 
+#projectContainer {
+    margin: 0;
+    padding: 0;
+}
+
 .pullLeft {
     float: left;
 }
@@ -55,11 +60,21 @@ header {
     #container {
         margin: 10% 5%;
     }
+
+    .flex {
+        display: block;
+        /* direction: column; */
+        flex-wrap: wrap;
+    }
 }
 
 /* Tablet */
 @media only screen and (max-width: 1280px) and (min-width: 653px) {
-
+    .flex {
+        display: flex;
+        direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 /* Desktop */

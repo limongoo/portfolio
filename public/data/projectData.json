@@ -4,62 +4,80 @@
         "title":  "concept portfolio",
         "link":   "https://limongoo.github.io/201project/",
         "class":  "retro",
-        "tag":    "<span class='tags'>javascript</span>  <span class='tags'>ux</span> <span class='tags'>design</span> <span class='tags'>html</span> <span class='tags'>css</span>"
+        "tag":    "<span class='tags'>javascript</span>  <span class='tags'>ux</span> <span class='tags'>design</span> <span class='tags'>html</span> <span class='tags'>css</span>",
+        "id":     "concept",
+        "body":   "This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image."
     },
     {
         "image":  "img/thumb/mpm.jpg",
         "title":  "MPowered media",
         "link":   "http://mpoweredmedia.com",
         "class":  "retro",
-        "tag":    "<span class='tags'>design</span> <span class='tags'>ux</span> <span class='tags'>html</span> <span class='tags'>css</span> <span class='tags'>wordpress</span>"
+        "tag":    "<span class='tags'>design</span> <span class='tags'>ux</span> <span class='tags'>html</span> <span class='tags'>css</span> <span class='tags'>wordpress</span>",
+        "id":     "mpowered",        
+        "body":   "I was tasked to create the corporate website for MPowered Media, a local real estate marketing company in Portland, OR. This website uses Wordpress and I was in charge of the UX/UI, art direction and front-end design. "
     },
     {
         "image":  "img/thumb/mrealty.jpg",
         "title":  "m realty",
         "link":   "http://mrealtypdx.com/",
         "class":  "retro",
-        "tag":    "<span class='tags'>design</span> <span class='tags'>ux</span> <span class='tags'>html</span> <span class='tags'>css</span> <span class='tags'>wordpress</span>"
+        "tag":    "<span class='tags'>design</span> <span class='tags'>ux</span> <span class='tags'>html</span> <span class='tags'>css</span> <span class='tags'>wordpress</span>",
+        "id":     "m",        
+        "body":   "M Realty is a local boutique real estate brokerage in Portland, OR. I helped develop this website using Wordpress and was in charge of the front-end design and UX/UI. "
     },
     {
         "image":  "img/thumb/pdx.jpg",
         "title":  "PDX neighborhood",
         "link":   "http://pdx-neighbors.github.io/pdx-neighbors/",
         "class":  "retro",
-        "tag":    "<span class='tags'>javascript</span> <span class='tags'>html</span> <span class='tags'>css</span> <span class='tags'>design</span>"
+        "tag":    "<span class='tags'>javascript</span> <span class='tags'>html</span> <span class='tags'>css</span> <span class='tags'>design</span>",
+        "id":     "pdx",
+        "body":   "PDX Neighbors was my final project for the 201 course at Code Fellows(Alchemy Code Lab). I collaborated and worked with 3 other students to create an image based quiz where users click on images that relate to them. The final click count will help advice which neighborhood you should live in Portland."
     },
     {
         "image":  "img/thumb/donut.jpg",
         "title":  "dept. of donut",
         "link":   "http://limongoo.github.io/cookie-stand/index.html",
         "class":  "retro",
-        "tag":    "<span class='tags'>javascript</span> <span class='tags'>html</span> <span class='tags'>css</span> <span class='tags'>design</span>"
+        "tag":    "<span class='tags'>javascript</span> <span class='tags'>html</span> <span class='tags'>css</span> <span class='tags'>design</span>",
+        "id":     "donut",        
+        "body":   "Dept. of Donut is 201 course project where javascript is created to determine min and max sales per hour for 8 hours in several different locations. There's a section where you can input your own data and it will add your data to the main table."
     },
     {
         "image":  "img/thumb/market.jpg",
         "title":  "market analysis",
         "link":   "http://limongoo.github.io/market-analysis-app/",
         "class":  "retro",
-        "tag":    "<span class='tags'>javascript</span> <span class='tags'>html</span> <span class='tags'>css</span> <span class='tags'>design</span>"
+        "tag":    "<span class='tags'>javascript</span> <span class='tags'>html</span> <span class='tags'>css</span> <span class='tags'>design</span>",
+        "id":     "market",        
+        "body":   "Market Analysis is a voting application using javascript to count which images have the most votes and you can see results using chart js to create a simple data chart."
     },
     {
         "image":  "img/thumb/bali.jpg",
         "title":  "gooday bali driver",
         "link":   "http://www.goodaybalidriver.com/",
         "class":  "retro",
-        "tag":    "<span class='tags'>design</span> <span class='tags'>ux</span> <span class='tags'>squarespace</span> <span class='tags'>consultation</span>"
+        "tag":    "<span class='tags'>design</span> <span class='tags'>ux</span> <span class='tags'>squarespace</span> <span class='tags'>consultation</span>",
+        "id":     "gooday",        
+        "body":   "I was commissioned to create an informational website for taxi/shuttle service in Bali, Indonesia. I used Squarespace as the main platform and was in charge of UX, art direction and content development."
     },
     {
         "image":  "#",
         "title":  "",
         "link":   "#",
         "class":  "retro",
-        "tag":    ""
+        "tag":    "",
+        "id":     "",        
+        "body":   ""
     },
     {
         "image":  "#",
         "title":  "",
         "link":   "#",
         "class":  "retro",
-        "tag":    ""
+        "tag":    "",
+        "id":     "",        
+        "body":   ""
     }
 ]

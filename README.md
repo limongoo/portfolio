@@ -1,10 +1,10 @@
 # 301portfolio - Ivan Limongan
----
 
 
-Welcome to Ivan Limongan's Code 301 Portfolio Site at Alchemy Code Labs.
 
-You can find all 301 lab projects on this portfolio site.
+Welcome to Ivan Limongan's Portfolio Site  |  301 @ Alchemy Code Labs.
+
+You can find all 301 lab projects and commissioned work on this portfolio site.
 
 Github Repository: https://github.com/limongoo/301portfolio
 
@@ -26,8 +26,8 @@ Live Repository:
 - Added basic logo and menu navigation
 - Basic styling and google font added
 - Basic object constructor to add project items
-- Contructor working for adding image
-- Constructor wokring for adding title to project images
+- Constructor working for adding image
+- Constructor working for adding title to project images
 - Styling for image projects applied
 - Adjusted constructor to contain image and text into one div
 
@@ -58,18 +58,18 @@ Live Repository:
 - Tab menu works now for mobile and desktop view. Still working on closing menu on click for mobile/tablet view.
 - Minor css adjustment to make tab menu to work
 - Menu auto closes now when menu is clicked on mobile view
-- Added fadeIn transistions for mobile menu, minor CSS update
+- Added fadeIn transitions for mobile menu, minor CSS update
 - Had to adjust mobile menu structure for better css control
-- Desktop menu prooperly working now, CSS update
+- Desktop menu properly working now, CSS update
 
 #### 10/24
-- Implementing handlerbars templating system
+- Implementing handlebars template system
 
 #### 10/25
 - Adjusting project template before moving to handlebars
 - CSS styling for project hover state
 - Handlebars template in place in head section
-- Handlerbars compile and add back to html works
+- Handlebars compile and add back to html works
 - CSS and JS cleanup
 - CSS styling add and cleanup
 - Added color overlay styling for each project item
@@ -111,3 +111,28 @@ Live Repository:
 #### 11/5
 - Set up node js with express
 - Node server working
+- Set up handlebars project info template
+- Show/close project overlay working
+
+#### 11/6 
+- Project overlay feature
+
+#### 11/7
+- Project overlay working, pulling correct data not working yet
+- CSS styling
+- Add data to projectData.json
+
+#### 11/9
+- Handlebars ID to pull correct project
+- CSS styling
+
+#### 11/11
+- Fixed Handlebars and project overlay works now. 
+- Data update in json file. 
+- CSS styling
+
+#### 11/16 
+- Fixed project info modal open/close
+
+#### 11/17
+- CSS styling
