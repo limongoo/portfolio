@@ -4,7 +4,8 @@
   const indexController = {};
 
   indexController.index = function() {
-    createPage();
+    // createPage();
+    Project.fetchData();
     $('#about').fadeOut(500);
     $('#main').fadeIn(500);
 }

@@ -4,8 +4,9 @@
   const aboutController = {};
 
   aboutController.about = function() {
-    console.log('start');
-    createPage();
+    console.log('start about');
+    // createPage();
+    Project.fetchData();
     $('#main').fadeOut(500);
     $('#about').fadeIn(500);
 }
