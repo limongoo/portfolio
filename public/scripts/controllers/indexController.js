@@ -5,8 +5,8 @@
 
   indexController.index = function() {
     // createPage();
-    Project.fetchData();
-    $('#about').fadeOut(500);
+    // Project.fetchData();
+    $('#about').fadeOut(200);
     $('#main').fadeIn(500);
 }
   module.indexController = indexController;

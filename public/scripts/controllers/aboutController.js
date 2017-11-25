@@ -6,8 +6,8 @@
   aboutController.about = function() {
     console.log('start about');
     // createPage();
-    Project.fetchData();
-    $('#main').fadeOut(500);
+    // Project.fetchData();
+    $('#main').fadeOut(200);
     $('#about').fadeIn(500);
 }
   module.aboutController = aboutController;

@@ -127,8 +127,8 @@ Live Repository:
 - CSS styling
 
 #### 11/11
-- Fixed Handlebars and project overlay works now. 
-- Data update in json file. 
+- Fixed Handlebars and project overlay works now
+- Data update in json file
 - CSS styling
 
 #### 11/16 
@@ -139,3 +139,6 @@ Live Repository:
 
 #### 11/20
 - Implementing Page JS
+
+#### 11/24
+- Fixed page js issue, working now
