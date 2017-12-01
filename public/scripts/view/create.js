@@ -15,17 +15,17 @@ function mainMenu() {
     });
 }
 
-// Tab menu function
-// function TabContent() {
-//     $('#menu li').on('click', function() {
-//         var selectTab = $(this).data('content');
-//         $('.content').hide();
-//         $('#' + selectTab).fadeIn(500);
-//         $('#navigation').fadeOut(500);
-//         $('#showMenu').text('menu');
-//     });
-//     $('#menu .tab:first').click(); 
-// }
+// Tab menu function - OLD
+function TabContent() {
+    $('#menu li').on('click', function() {
+        var selectTab = $(this).data('content');
+        $('.content').hide();
+        $('#' + selectTab).fadeIn(500);
+        $('#navigation').fadeOut(500);
+        $('#showMenu').text('menu');
+    });
+    $('#menu .tab:first').click(); 
+}
 
 // Show project info function. showProject from project template handlebars
 function overlayMenu() {
@@ -33,9 +33,10 @@ function overlayMenu() {
         event.preventDefault();
 
         var selectID = $(this).data('id');
+        
 
         if($('.projectOverlay').is(':hidden')) {
-            $('#' + selectID).fadeIn(200);
+            $('#' + selectID).fadeIn(500);
             // $projectOverlay.fadeIn(200);
             // $('.proImg').delay(2000).fadeIn(500);
             $('#showMenu').hide();
@@ -43,37 +44,17 @@ function overlayMenu() {
     });
     $('.projectOverlay #closeProject').on('click', function() {
         event.preventDefault();
+        // var $menu = $('#navigation');
 
         $(this).closest('.projectOverlay').fadeOut(500);
         $('#showMenu').show();
+        // $menu.fadeOut(500);
     }); 
 }
 
-// function closeOverlayMenu() {
-//     var $projectOverlay = $('#projectOverlay');
-//     var selectID = $(this).data('id');
-//     $('#closeProject').click(function() {
-//         $('#' + selectID).fadeOut(500); 
-//         $('#showMenu').show();
-//     });
-// }
-
-
-
-// function showInfo() {
-//     $('#projectBox a').on('click', function() {
-//         var selectProject = $(this).data('info');
-//         $('.showProject').hide();
-//         $('#' + )
-//     });
-// }
-
-
-
-
 
 $(document).ready(function() {
-    // TabContent();
+    TabContent();
     mainMenu();
     overlayMenu();
     // closeOverlayMenu();

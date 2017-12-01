@@ -142,3 +142,6 @@ Live Repository:
 
 #### 11/24
 - Fixed page js issue, working now
+
+#### 11/30
+- Menu fix
