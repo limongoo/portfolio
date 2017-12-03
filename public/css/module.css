@@ -237,6 +237,10 @@
 
 
 /* -------- About ---------- */
+#about {
+    display: none;
+}
+
 .blend {
     mix-blend-mode: difference;
     position: absolute;

@@ -7,18 +7,16 @@
         <link rel="stylesheet" href="css/base.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700|Material+Icons" rel="stylesheet">
     </head>
     <body>
         <header>
-            <div id="logo"><a href="index.html" target="_self">ivan</a></div>
+            <div id="logo"><a href="/main">ivan</a></div>
                 <div id="ham"><a id="showMenu" href="#">menu</a></div>
                 <nav id="navigation"> 
                     <ul id="menu">
-                        <li class="tab" data-content="main"><a href="#" target="_self">projects</a></li>
-                        <li class="tab" data-content="about"><a href="#" target="_self">info</a></li>
+                        <li class="tab" data-content="main"><a href="/main">projects</a></li>
+                        <li class="tab" data-content="about"><a href="/about">info</a></li>
                     </ul>
                     <div id="social">
                         <a class="soc" href="https://github.com/limongoo" target="_blank"><img src="img/github.png"></a>
@@ -158,9 +156,13 @@
         </script>
 
         <!-- <script type="text/javascript" src="data/projectData.js"></script> -->
-        <script src="data/projectData.json"></script>
-        <script type="text/javascript" src="js/create.js"></script>
-        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="vendors/scripts/page.js"></script>
+        <script type="text/javascript" src="data/projectData.json"></script>
+        <script type="text/javascript" src="scripts/view/create.js"></script>
+        <script type="text/javascript" src="scripts/view/app.js"></script>
+        <script type="text/javascript" src="scripts/controllers/indexController.js"></script>
+        <script type="text/javascript" src="scripts/controllers/aboutController.js"></script>
+        <script type="text/javascript" src="scripts/controllers/routes.js"></script>
         <script>
             Project.fetchData();
         </script>
