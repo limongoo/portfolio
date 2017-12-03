@@ -152,4 +152,4 @@ Live Repository:
 - Menu fix
 
 #### 12/3
-- Local storage taken out
+- Local storage adjusted, project data loading properly
