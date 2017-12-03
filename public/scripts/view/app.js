@@ -59,11 +59,13 @@ Project.fetchData = function() {
     if (localStorage.data) {
         Project.loadAll(JSON.parse(localStorage.data));
         createPage();
+        overlayMenu();
     } else {
         $.getJSON('data/projectData.json', function(getData) {
             localStorage.setItem('data', JSON.stringify(getData));
             Project.loadAll(getData);
             createPage();
+            overlayMenu();
         });
     }
 };
