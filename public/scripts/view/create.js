@@ -34,7 +34,7 @@ function overlayMenu() {
 
         var selectID = $(this).data('id');
         
-
+        
         if($('.projectOverlay').is(':hidden')) {
             $('#' + selectID).fadeIn(500);
             // $projectOverlay.fadeIn(200);
@@ -56,6 +56,6 @@ function overlayMenu() {
 $(document).ready(function() {
     TabContent();
     mainMenu();
-    overlayMenu();
+    // overlayMenu();
     // closeOverlayMenu();
 });

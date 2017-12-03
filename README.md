@@ -11,7 +11,12 @@ Github Repository: https://github.com/limongoo/301portfolio
 Live Repository: 
 
 
+#### Features
+
+
 #### Credits
+
+
 
 ## Portfolio Log
 
@@ -145,3 +150,6 @@ Live Repository:
 
 #### 11/30
 - Menu fix
+
+#### 12/3
+- Local storage adjusted, project data loading properly
