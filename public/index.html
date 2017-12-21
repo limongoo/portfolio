@@ -43,7 +43,7 @@
             </div>
             <div id="container">
                 <img class="pullRight aOne" src="img/howe-use.jpg">
-                <h1 class="blend heroText">Hello, I'm Ivan Limongan, User Experience / Interface Designer &amp; Front-End Developer from Portland, OR.</h1> 
+                <h1 class="blend heroText" data-tilt>Hello, I'm Ivan Limongan, User Experience / Interface Designer &amp; Front-End Developer from Portland, OR.</h1> 
             </div>
             <div class="clear"></div>
             <div id="container" class="flex">
@@ -69,7 +69,7 @@
                 <div class="flex4">
                     <p><span class="line"></span>focus</p>
                 </div>
-                <div class="flex4">
+                <div class="flex4" data-tilt data-tilt-reset="false">
                     <p>Web</p>
                     <ul>
                         <li>— Front-End Development</li>
@@ -88,7 +88,7 @@
                         <li>— Wordpress / Squarespace / Weebly</li>
                     </ul>
                 </div>
-                <div class="flex4">
+                <div class="flex4" data-tilt data-tilt-reset="false">
                     <p>Design</p>
                     <ul>
                         <li>— Digitial / Visual / Print</li>
@@ -100,7 +100,7 @@
                         <li>— Product Development</li>
                     </ul>
                 </div>
-                <div class="flex4">
+                <div class="flex4" data-tilt data-tilt-reset="false">
                     <p>Technical</p>
                     <ul>
                         <li>— GitHub / Terminal / Heroku</li>
@@ -122,7 +122,7 @@
 
         <!-- Handlebars JS -->
         <script id="project-template" type="text/x-handlebars-template">
-            <div id="projectItem">
+            <div id="projectItem" data-tilt data-tilt-reverse="true" data-tilt-reset="false">
                 <div id="projectBox" class="container">
                     <a href="#" data-id="{{id}}" class="showProject">
                         <img id="imgShow" src="{{image}}" class="image">
@@ -169,5 +169,6 @@
         <script>
             Project.fetchData();
         </script>
+        <script type="text/javascript" src="vendors/scripts/vanilla-tilt.min.js"></script>
     </body>
 </html>
