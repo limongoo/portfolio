@@ -20,11 +20,11 @@
     {
         "image":  "img/thumb/mrealty.jpg",
         "title":  "m realty",
-        "link":   "http://mrealtypdx.com/",
+        "link":   "https://limongoo.github.io/201project/mrealty.html",
         "class":  "retro",
         "tag":    "<span class='tags'>design</span> <span class='tags'>ux</span> <span class='tags'>html</span> <span class='tags'>css</span> <span class='tags'>wordpress</span>",
         "id":     "m",        
-        "body":   "M Realty is a local boutique real estate brokerage in Portland, OR. I helped develop this website using Wordpress and was in charge of the front-end design and UX/UI. "
+        "body":   "UPDATE: RIP M Realty on OCT 2017, the link above are some work that I did for them from me design portfolio. M Realty is a local boutique real estate brokerage in Portland, OR. I helped develop this website using Wordpress and was in charge of the front-end design and UX/UI. "
     },
     {
         "image":  "img/thumb/pdx.jpg",
@@ -62,22 +62,22 @@
         "id":     "gooday",        
         "body":   "I was commissioned to create an informational website for taxi/shuttle service in Bali, Indonesia. I used Squarespace as the main platform and was in charge of UX, art direction and content development."
     },
-    {
-        "image":  "#",
-        "title":  "",
-        "link":   "#",
-        "class":  "retro",
-        "tag":    "",
-        "id":     "",        
-        "body":   ""
-    },
-    {
-        "image":  "#",
-        "title":  "",
-        "link":   "#",
-        "class":  "retro",
-        "tag":    "",
-        "id":     "",        
-        "body":   ""
-    }
+    // {
+    //     "image":  "#",
+    //     "title":  "",
+    //     "link":   "#",
+    //     "class":  "retro",
+    //     "tag":    "",
+    //     "id":     "",        
+    //     "body":   ""
+    // },
+    // {
+    //     "image":  "#",
+    //     "title":  "",
+    //     "link":   "#",
+    //     "class":  "retro",
+    //     "tag":    "",
+    //     "id":     "",        
+    //     "body":   ""
+    // }
 ]
