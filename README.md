@@ -153,3 +153,6 @@ Live Repository: https://limongoo.github.io/301portfolio
 
 #### 12/3
 - Local storage adjusted, project data loading properly
+
+#### 2/16
+- 2 projects added, minor css updates
