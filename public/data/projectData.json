@@ -6,7 +6,8 @@
         "class":  "retro",
         "tag":    "<span class='tags'>javascript</span>  <span class='tags'>ux/ui</span> <span class='tags'>webpack</span> <span class='tags'>firebase</span> <span class='tags'>node js</span> <span class='tags'>html5</span> <span class='tags'>css3</span>",
         "id":     "artpost",
-        "body":   "The ArtPost is a social media platform for artist to set up accounts and upload their artwork. Through the trending and favorites system, artist's work can be discovered and receive exposure in the art community. User's coming on this platform can set up an account and save their favorite art that they see into a favorites list and able to view info about art and the artist.<br>Role: Front-End Developer, Art Director and Team Lead"
+        "body":   "The ArtPost is a social media platform for artist to set up accounts and upload their artwork. Through the trending and favorites system, artist's work can be discovered and receive exposure in the art community. User's coming on this platform can set up an account and save their favorite art that they see into a favorites list and able to view info about art and the artist.",
+        "role":   "Front-End Developer, UX/UI Designer, Art Director and Team Lead"
     },
     {
         "image":  "img/thumb/refresh.jpg",
@@ -15,7 +16,8 @@
         "class":  "retro",
         "tag":    "<span class='tags'>javascript</span>  <span class='tags'>ux/ui</span> <span class='tags'>rest api</span> <span class='tags'>unsplash api</span> <span class='tags'>postgresql</span> <span class='tags'>node js</span> <span class='tags'>html5</span> <span class='tags'>css3</span>",
         "id":     "refresh",
-        "body":   "reFresh is a landing page generator application where you can pick your own font, font color, background image, color overlay & gradient overlay for you landing page. From there you can copy the css codes for you favorite combination, or you can sign up for a free account and you can save your favorite style combinations."
+        "body":   "reFresh is a landing page generator application where you can pick your own font, font color, background image, color overlay & gradient overlay for you landing page. From there you can copy the css codes for you favorite combination, or you can sign up for a free account and you can save your favorite style combinations.",
+        "role":   "Front-End Developer, Art Director and Team Lead"
     },
     {
         "image":  "img/thumb/concept-ivanlimongan.jpg",
@@ -24,7 +26,8 @@
         "class":  "retro",
         "tag":    "<span class='tags'>javascript</span>  <span class='tags'>ux</span> <span class='tags'>design</span> <span class='tags'>html5</span> <span class='tags'>css3</span>",
         "id":     "concept",
-        "body":   "This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image."
+        "body":   "This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image.",
+        "role":   "Front-End Developer and Art Director"
     },
     {
         "image":  "img/thumb/mpm.jpg",
@@ -33,7 +36,8 @@
         "class":  "retro",
         "tag":    "<span class='tags'>design</span> <span class='tags'>ux</span> <span class='tags'>html5</span> <span class='tags'>css3</span> <span class='tags'>wordpress</span>",
         "id":     "mpowered",        
-        "body":   "I was tasked to create the corporate website for MPowered Media, a local real estate marketing company in Portland, OR. This website uses Wordpress and I was in charge of the UX/UI, art direction and front-end design. "
+        "body":   "I was tasked to create the corporate website for MPowered Media, a local real estate marketing company in Portland, OR. This website uses Wordpress and I was in charge of the UX/UI, art direction and front-end design.",
+        "role":   "Front-End Designer, UX/UI Designer and Art Director"
     },
     {
         "image":  "img/thumb/mrealty.jpg",
@@ -42,7 +46,8 @@
         "class":  "retro",
         "tag":    "<span class='tags'>design</span> <span class='tags'>ux</span> <span class='tags'>html5</span> <span class='tags'>css3</span> <span class='tags'>wordpress</span>",
         "id":     "m",        
-        "body":   "UPDATE: RIP M Realty on OCT 2017, the link above are some work that I did for them from my design portfolio. M Realty is a local boutique real estate brokerage in Portland, OR. I helped develop this website using Wordpress and was in charge of the front-end design and UX/UI. "
+        "body":   "UPDATE: RIP M Realty on OCT 2017, the link above are some work that I did for them from my design portfolio. M Realty is a local boutique real estate brokerage in Portland, OR. I helped develop this website using Wordpress and was in charge of the front-end design and UX/UI. ",
+        "role":   "Front-End Developer, Web Design and Art Director"
     },
     {
         "image":  "img/thumb/pdx.jpg",
@@ -51,7 +56,8 @@
         "class":  "retro",
         "tag":    "<span class='tags'>javascript</span> <span class='tags'>html5</span> <span class='tags'>css3</span> <span class='tags'>design</span>",
         "id":     "pdx",
-        "body":   "PDX Neighbors was my final project for the 201 course at Code Fellows(Alchemy Code Lab). I collaborated and worked with 3 other students to create an image based quiz where users click on images that relate to them. The final click count will help advice which neighborhood you should live in Portland."
+        "body":   "PDX Neighbors was my final project for the 201 course at Code Fellows(Alchemy Code Lab). I collaborated and worked with 3 other students to create an image based quiz where users click on images that relate to them. The final click count will help advice which neighborhood you should live in Portland.",
+        "role":   "Web Developer"
     },
     {
         "image":  "img/thumb/donut.jpg",
@@ -60,7 +66,8 @@
         "class":  "retro",
         "tag":    "<span class='tags'>javascript</span> <span class='tags'>html5</span> <span class='tags'>css3</span> <span class='tags'>design</span>",
         "id":     "donut",        
-        "body":   "Dept. of Donut is 201 course project where javascript is created to determine min and max sales per hour for 8 hours in several different locations. There's a section where you can input your own data and it will add your data to the main table."
+        "body":   "Dept. of Donut is 201 course project where javascript is created to determine min and max sales per hour for 8 hours in several different locations. There's a section where you can input your own data and it will add your data to the main table.",
+        "role":   "Web Developer"
     },
     {
         "image":  "img/thumb/market.jpg",
@@ -69,7 +76,8 @@
         "class":  "retro",
         "tag":    "<span class='tags'>javascript</span> <span class='tags'>html5</span> <span class='tags'>css3</span> <span class='tags'>design</span>",
         "id":     "market",        
-        "body":   "Market Analysis is a voting application using javascript to count which images have the most votes and you can see results using chart js to create a simple data chart."
+        "body":   "Market Analysis is a voting application using javascript to count which images have the most votes and you can see results using chart js to create a simple data chart.",
+        "role":   "Web Developer"
     },
     {
         "image":  "img/thumb/bali.jpg",
@@ -78,6 +86,7 @@
         "class":  "retro",
         "tag":    "<span class='tags'>design</span> <span class='tags'>ux</span> <span class='tags'>squarespace</span> <span class='tags'>consultation</span>",
         "id":     "gooday",        
-        "body":   "I was commissioned to create an informational website for a taxi/shuttle service in Bali, Indonesia. I used Squarespace as the main platform and was in charge of UX, art direction and content development."
+        "body":   "I was commissioned to create an informational website for a taxi/shuttle service in Bali, Indonesia. I used Squarespace as the main platform and was in charge of UX, art direction and content development.",
+        "role":   "Art Director and Web Designer"
     }
 ]
