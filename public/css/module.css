@@ -19,7 +19,6 @@
     z-index: 100000;
 }
 
-
 /* ------- Social ------- */
 #social {
     /* opacity: 1; */
@@ -50,19 +49,16 @@
 /* ------  Project Item Style ----------- */
 #projectContainer {
     margin: 4% 5% 4% 4%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
 }
 
 #projectContainer1 {
     margin: 4% 5% 4% 4%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#projectItem {
-    flex: 1 0 350px;
-    margin-left: 15px;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
 }
 
 #projectBox {

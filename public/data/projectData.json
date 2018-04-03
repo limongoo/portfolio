@@ -1,5 +1,15 @@
 [
     {
+        "image":  "img/thumb/food.jpg",
+        "title":  "what the food",
+        "link":   "https://wtfoodtracker.firebaseapp.com/",
+        "class":  "retro",
+        "tag":    "<span class='tags'>javascript</span>  <span class='tags'>ux/ui</span> <span class='tags'>webpack</span> <span class='tags'>firebase</span> <span class='tags'>node js</span> <span class='tags'>html5</span> <span class='tags'>css3</span>",
+        "id":     "artpost",
+        "body":   "A tracker app where you can search for food and save to different lists in your account. View restaurant details and add comments to your favorite places.",
+        "role":   "Front-End Developer, UX/UI Designer, Art Director"
+    },
+    {
         "image":  "img/thumb/artpost.jpg",
         "title":  "the artpost",
         "link":   "https://the-artpost.firebaseapp.com/",
