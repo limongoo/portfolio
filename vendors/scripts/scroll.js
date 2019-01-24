@@ -26,7 +26,7 @@ window.sr = ScrollReveal({
   origin: 'bottom',
   opacity: 0,
   duration: 2000,
-  delay: 0.8,
+  delay: 0.3,
   scale: 1
 });
 sr.reveal('.scroll');
