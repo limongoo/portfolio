@@ -37,7 +37,7 @@
         "tag":    "<span class='tags'>javascript</span>  <span class='tags'>ux</span> <span class='tags'>design</span> <span class='tags'>html5</span> <span class='tags'>css3</span>",
         "id":     "concept",
         "body":   "This was the final project for the 201 course at Alchemy Code Labs, this portfolio showcases my design work and it was built from scratch. Javascript was used to make an object constructor of the project names and image.",
-        "role":   "Front-End Developer and Art Director"
+        "role":   "Front-End Developer"
     },
     {
         "image":  "img/thumb/mpm.jpg",
