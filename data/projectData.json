@@ -10,16 +10,6 @@
         "role":   "Front-End Developer, UX/UI Designer, Art Director"
     },
     {
-        "image":  "img/thumb/artpost.jpg",
-        "title":  "the artpost",
-        "link":   "https://the-artpost.firebaseapp.com/",
-        "class":  "retro",
-        "tag":    "<span class='tags'>javascript</span>  <span class='tags'>ux/ui</span> <span class='tags'>webpack</span> <span class='tags'>firebase</span> <span class='tags'>node js</span> <span class='tags'>html5</span> <span class='tags'>css3</span>",
-        "id":     "artpost",
-        "body":   "The ArtPost is a social media platform for artist to set up accounts and upload their artwork. Through the trending and favorites system, artist's work can be discovered and receive exposure in the art community. User's coming on this platform can set up an account and save their favorite art that they see into a favorites list and able to view info about art and the artist.",
-        "role":   "Front-End Developer, UX/UI Designer, Art Director and Team Lead"
-    },
-    {
         "image":  "img/thumb/refresh.jpg",
         "title":  "refresh",
         "link":   "https://refresh-landingpage.herokuapp.com/",
@@ -28,6 +18,16 @@
         "id":     "refresh",
         "body":   "reFresh is a landing page generator application where you can pick your own font, font color, background image, color overlay & gradient overlay for you landing page. From there you can copy the css codes for you favorite combination, or you can sign up for a free account and you can save your favorite style combinations.",
         "role":   "Front-End Developer, Art Director and Team Lead"
+    },
+    {
+        "image":  "img/thumb/artpost.jpg",
+        "title":  "the artpost",
+        "link":   "https://the-artpost.firebaseapp.com/",
+        "class":  "retro",
+        "tag":    "<span class='tags'>javascript</span>  <span class='tags'>ux/ui</span> <span class='tags'>webpack</span> <span class='tags'>firebase</span> <span class='tags'>node js</span> <span class='tags'>html5</span> <span class='tags'>css3</span>",
+        "id":     "artpost",
+        "body":   "The ArtPost is a social media platform for artist to set up accounts and upload their artwork. Through the trending and favorites system, artist's work can be discovered and receive exposure in the art community. User's coming on this platform can set up an account and save their favorite art that they see into a favorites list and able to view info about art and the artist.",
+        "role":   "Front-End Developer, UX/UI Designer, Art Director and Team Lead"
     },
     {
         "image":  "img/thumb/concept-ivanlimongan.jpg",
