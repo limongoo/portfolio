@@ -8,13 +8,7 @@ You can find all 301 lab projects and commissioned work on this portfolio site.
 
 Github Repository: https://github.com/limongoo/301portfolio
 
-Live Repository: https://limongoo.github.io/301portfolio
-
-
-#### Features
-
-
-#### Credits
+Live Repository: https://ivanlimongan.com
 
 
 
